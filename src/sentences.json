@@ -1,0 +1,740 @@
+{
+  "glossary": {
+    "ว่ายน้ำ": "swim",
+    "ซื้อ": "buy",
+    "เพื่อน": "friend",
+    "หา": "look for / visit (someone)",
+    "โทร": "call (phone)",
+    "เชียงใหม่": "Chiang Mai",
+    "เพราะ": "because",
+    "และ": "and",
+    "ใน": "in, inside",
+    "ทั้งวัน": "all day",
+    "คุณ": "you",
+    "ที่ไหน": "where",
+    "ไหม": "yes/no question particle",
+    "อร่อย": "delicious",
+    "เหนื่อย": "tired",
+    "หิว": "hungry",
+    "บ้าน": "home, house",
+    "ทะเล": "sea",
+    "เมื่อไร": "when",
+    "ตื่น": "wake up",
+    "เรียน": "study, learn",
+    "ภาษาไทย": "Thai language",
+    "ดู": "watch, look",
+    "หนัง": "movie",
+    "ร้าน": "shop, restaurant",
+    "แท็กซี่": "taxi",
+    "มาก": "very, a lot",
+    "นิดหน่อย": "a little",
+    "ทำไม": "why",
+    "แต่": "but",
+    "ผม": "I (male)",
+    "สาย": "late",
+    "เมื่อคืน": "last night",
+    "นอน": "sleep, lie down",
+    "ไม่": "not",
+    "หลับ": "fall asleep",
+    "ครับ": "polite particle (male)",
+    "ทุกเช้า": "every morning",
+    "ดื่ม": "drink",
+    "กาแฟร้อน": "hot coffee",
+    "ที่": "at",
+    "ห้องครัว": "kitchen",
+    "วันนี้": "today",
+    "ตอนนี้": "now",
+    "เรา": "we",
+    "ไป": "go",
+    "กิน": "eat",
+    "ข้าว": "rice, food",
+    "กัน": "together",
+    "อาหาร": "food",
+    "นี้": "this",
+    "กุ้งชุบแป้งทอด": "batter-fried shrimp",
+    "อยู่": "be at / -ing",
+    "พรุ่งนี้": "tomorrow",
+    "จะ": "will",
+    "ภูเก็ต": "Phuket",
+    "กำลัง": "-ing (in progress)",
+    "ผ่าน": "via, through",
+    "คอม": "computer",
+    "ทุกวัน": "every day",
+    "เย็นนี้": "this evening",
+    "คอนโด": "condo",
+    "แฟน": "girlfriend / boyfriend",
+    "ชอบ": "like",
+    "จีน": "Chinese",
+    "เมื่อวาน": "yesterday",
+    "นั่ง": "sit, ride",
+    "สถานี": "station",
+    "รถไฟฟ้า": "BTS, skytrain",
+    "ทำงาน": "work",
+    "ห้าม": "no, forbidden",
+    "สูบบุหรี่": "smoke (cigarettes)",
+    "ห้องน้ำ": "bathroom",
+    "จอดรถ": "park (a car)",
+    "ใกล้": "near",
+    "ขอ": "may I have",
+    "น้ำเปล่า": "plain water",
+    "สอง": "two",
+    "แก้ว": "glass (classifier)",
+    "ด้วย": "too, as well",
+    "ใส่": "put in",
+    "ถุง": "bag",
+    "มา": "come",
+    "จาก": "from",
+    "ประเทศ": "country",
+    "ยูเครน": "Ukraine",
+    "อาศัย": "live, reside",
+    "กรุงเทพฯ": "Bangkok",
+    "ของ": "of",
+    "ไม่ค่อย": "not really",
+    "ทำ": "do, make",
+    "กับข้าว": "dishes, food",
+    "เดี๋ยว": "in a moment",
+    "ส่ง": "send",
+    "ข้อความ": "message",
+    "ใคร": "who",
+    "อาบน้ำ": "shower, bathe",
+    "เรียบร้อย": "done, in order",
+    "แล้ว": "already",
+    "ทำความสะอาด": "clean",
+    "ห้อง": "room",
+    "รอบที่แล้ว": "last time",
+    "เที่ยว": "travel, go out",
+    "ตอนเช้า": "in the morning",
+    "ตอนเย็น": "in the evening",
+    "เดินเล่น": "take a walk",
+    "สวน": "park, garden",
+    "ตอนบ่าย": "in the afternoon",
+    "ห้องสมุด": "library",
+    "ตุ๊กตาหมี": "teddy bear",
+    "ให้": "give, for",
+    "อะไร": "what",
+    "กาแฟ": "coffee",
+    "ให้เช่า": "for rent",
+    "BTS": "BTS",
+    "ติดต่อ": "contact",
+    "หมอ": "doctor",
+    "หาหมอ": "see a doctor",
+    "อาหารเย็น": "dinner",
+    "อาหารเจ": "vegetarian food",
+    "กุ้ง": "shrimp",
+    "ร้านกาแฟ": "café",
+    "ขับ": "drive",
+    "รถ": "car",
+    "กับ": "with",
+    "ต่อไป": "next",
+    "น้ำตก": "waterfall",
+    "ดี": "good",
+    "กาแฟเย็น": "iced coffee",
+    "ร้อน": "hot",
+    "เช้า": "early, morning",
+    "อาหารเช้า": "breakfast",
+    "มาสาย": "come late",
+    "ร้านอาหาร": "restaurant"
+  },
+  "sentences": [
+    {
+      "thai": "ผมตื่นสายเพราะเมื่อคืนนอนไม่หลับครับ",
+      "split": ["ผม", "ตื่น", "สาย", "เพราะ", "เมื่อคืน", "นอน", "ไม่", "หลับ", "ครับ"],
+      "english": "I woke up late because I couldn't sleep last night.",
+      "new_words": ["ตื่น", "เพราะ"]
+    },
+    {
+      "thai": "ทุกเช้าผมดื่มกาแฟร้อนที่ห้องครัวครับ",
+      "split": ["ทุกเช้า", "ผม", "ดื่ม", "กาแฟร้อน", "ที่", "ห้องครัว", "ครับ"],
+      "english": "Every morning I drink hot coffee in the kitchen.",
+      "new_words": []
+    },
+    {
+      "thai": "วันนี้ผมเหนื่อยมากครับ",
+      "split": ["วันนี้", "ผม", "เหนื่อย", "มาก", "ครับ"],
+      "english": "I'm very tired today.",
+      "new_words": ["เหนื่อย", "มาก"]
+    },
+    {
+      "thai": "ตอนนี้ผมหิวนิดหน่อยครับ",
+      "split": ["ตอนนี้", "ผม", "หิว", "นิดหน่อย", "ครับ"],
+      "english": "I'm a little hungry right now.",
+      "new_words": ["หิว", "นิดหน่อย"]
+    },
+    {
+      "thai": "คุณหิวไหมครับ",
+      "split": ["คุณ", "หิว", "ไหม", "ครับ"],
+      "english": "Are you hungry?",
+      "new_words": ["คุณ", "หิว", "ไหม"]
+    },
+    {
+      "thai": "เราไปกินข้าวกันไหมครับ",
+      "split": ["เรา", "ไป", "กิน", "ข้าว", "กัน", "ไหม", "ครับ"],
+      "english": "Shall we go eat?",
+      "new_words": ["ไหม"]
+    },
+    {
+      "thai": "อาหารที่ร้านนี้อร่อยมากครับ",
+      "split": ["อาหาร", "ที่", "ร้าน", "นี้", "อร่อย", "มาก", "ครับ"],
+      "english": "The food at this restaurant is very tasty.",
+      "new_words": ["ร้าน", "อร่อย", "มาก"]
+    },
+    {
+      "thai": "กุ้งชุบแป้งทอดอร่อยไหมครับ",
+      "split": ["กุ้งชุบแป้งทอด", "อร่อย", "ไหม", "ครับ"],
+      "english": "Is the batter-fried shrimp tasty?",
+      "new_words": ["อร่อย", "ไหม"]
+    },
+    {
+      "thai": "วันนี้ผมอยู่บ้านทั้งวันครับ",
+      "split": ["วันนี้", "ผม", "อยู่", "บ้าน", "ทั้งวัน", "ครับ"],
+      "english": "Today I'm at home all day.",
+      "new_words": ["บ้าน", "ทั้งวัน"]
+    },
+    {
+      "thai": "พรุ่งนี้เราจะไปทะเลกันครับ",
+      "split": ["พรุ่งนี้", "เรา", "จะ", "ไป", "ทะเล", "กัน", "ครับ"],
+      "english": "Tomorrow we're going to the sea.",
+      "new_words": ["ทะเล"]
+    },
+    {
+      "thai": "คุณจะไปภูเก็ตเมื่อไรครับ",
+      "split": ["คุณ", "จะ", "ไป", "ภูเก็ต", "เมื่อไร", "ครับ"],
+      "english": "When are you going to Phuket?",
+      "new_words": ["คุณ", "เมื่อไร"]
+    },
+    {
+      "thai": "ตอนนี้ผมกำลังเรียนภาษาไทยอยู่ครับ",
+      "split": ["ตอนนี้", "ผม", "กำลัง", "เรียน", "ภาษาไทย", "อยู่", "ครับ"],
+      "english": "I'm studying Thai right now.",
+      "new_words": ["เรียน", "ภาษาไทย"]
+    },
+    {
+      "thai": "ผมเรียนภาษาไทยผ่านคอมทุกวันครับ",
+      "split": ["ผม", "เรียน", "ภาษาไทย", "ผ่าน", "คอม", "ทุกวัน", "ครับ"],
+      "english": "I study Thai on my computer every day.",
+      "new_words": ["เรียน", "ภาษาไทย"]
+    },
+    {
+      "thai": "เย็นนี้เราจะดูหนังที่คอนโดครับ",
+      "split": ["เย็นนี้", "เรา", "จะ", "ดู", "หนัง", "ที่", "คอนโด", "ครับ"],
+      "english": "This evening we'll watch a movie at the condo.",
+      "new_words": ["ดู", "หนัง"]
+    },
+    {
+      "thai": "แฟนผมชอบดูหนังจีนครับ",
+      "split": ["แฟน", "ผม", "ชอบ", "ดู", "หนัง", "จีน", "ครับ"],
+      "english": "My girlfriend likes watching Chinese movies.",
+      "new_words": ["ดู", "หนัง"]
+    },
+    {
+      "thai": "เมื่อวานผมนั่งแท็กซี่ไปสถานีรถไฟฟ้าครับ",
+      "split": ["เมื่อวาน", "ผม", "นั่ง", "แท็กซี่", "ไป", "สถานี", "รถไฟฟ้า", "ครับ"],
+      "english": "Yesterday I took a taxi to the BTS station.",
+      "new_words": ["แท็กซี่"]
+    },
+    {
+      "thai": "เมื่อวานผมไปทำงานสายเพราะตื่นสายครับ",
+      "split": ["เมื่อวาน", "ผม", "ไป", "ทำงาน", "สาย", "เพราะ", "ตื่น", "สาย", "ครับ"],
+      "english": "Yesterday I was late for work because I woke up late.",
+      "new_words": ["เพราะ", "ตื่น"]
+    },
+    {
+      "thai": "ห้ามสูบบุหรี่ในห้องน้ำ",
+      "split": ["ห้าม", "สูบบุหรี่", "ใน", "ห้องน้ำ"],
+      "english": "No smoking in the bathroom.",
+      "new_words": ["ใน"]
+    },
+    {
+      "thai": "ห้ามจอดรถใกล้สถานี",
+      "split": ["ห้าม", "จอดรถ", "ใกล้", "สถานี"],
+      "english": "No parking near the station.",
+      "new_words": []
+    },
+    {
+      "thai": "ผมขอน้ำเปล่าสองแก้วด้วยครับ",
+      "split": ["ผม", "ขอ", "น้ำเปล่า", "สอง", "แก้ว", "ด้วย", "ครับ"],
+      "english": "Two glasses of water too, please.",
+      "new_words": []
+    },
+    {
+      "thai": "ขอใส่ถุงด้วยครับ",
+      "split": ["ขอ", "ใส่", "ถุง", "ด้วย", "ครับ"],
+      "english": "Please put it in a bag as well.",
+      "new_words": []
+    },
+    {
+      "thai": "คุณมาจากประเทศจีนไหมครับ",
+      "split": ["คุณ", "มา", "จาก", "ประเทศ", "จีน", "ไหม", "ครับ"],
+      "english": "Are you from China?",
+      "new_words": ["คุณ", "ไหม"]
+    },
+    {
+      "thai": "ผมมาจากยูเครนแต่ตอนนี้อาศัยอยู่ที่กรุงเทพฯครับ",
+      "split": ["ผม", "มา", "จาก", "ยูเครน", "แต่", "ตอนนี้", "อาศัย", "อยู่", "ที่", "กรุงเทพฯ", "ครับ"],
+      "english": "I'm from Ukraine, but now I live in Bangkok.",
+      "new_words": ["แต่"]
+    },
+    {
+      "thai": "เพื่อนของผมอาศัยอยู่ที่เชียงใหม่ครับ",
+      "split": ["เพื่อน", "ของ", "ผม", "อาศัย", "อยู่", "ที่", "เชียงใหม่", "ครับ"],
+      "english": "My friend lives in Chiang Mai.",
+      "new_words": ["เพื่อน", "เชียงใหม่"]
+    },
+    {
+      "thai": "คอนโดของเพื่อนผมอยู่ใกล้ทะเลครับ",
+      "split": ["คอนโด", "ของ", "เพื่อน", "ผม", "อยู่", "ใกล้", "ทะเล", "ครับ"],
+      "english": "My friend's condo is near the sea.",
+      "new_words": ["เพื่อน", "ทะเล"]
+    },
+    {
+      "thai": "ทำไมคุณไม่กินข้าวครับ",
+      "split": ["ทำไม", "คุณ", "ไม่", "กิน", "ข้าว", "ครับ"],
+      "english": "Why aren't you eating?",
+      "new_words": ["ทำไม", "คุณ"]
+    },
+    {
+      "thai": "ทำไมแฟนคุณไม่มาครับ",
+      "split": ["ทำไม", "แฟน", "คุณ", "ไม่", "มา", "ครับ"],
+      "english": "Why didn't your girlfriend come?",
+      "new_words": ["ทำไม", "คุณ"]
+    },
+    {
+      "thai": "ผมไม่ค่อยชอบกาแฟร้อนครับ",
+      "split": ["ผม", "ไม่ค่อย", "ชอบ", "กาแฟร้อน", "ครับ"],
+      "english": "I don't really like hot coffee.",
+      "new_words": []
+    },
+    {
+      "thai": "แฟนผมกำลังทำกับข้าวอยู่ที่ห้องครัวครับ",
+      "split": ["แฟน", "ผม", "กำลัง", "ทำ", "กับข้าว", "อยู่", "ที่", "ห้องครัว", "ครับ"],
+      "english": "My girlfriend is cooking in the kitchen.",
+      "new_words": []
+    },
+    {
+      "thai": "เดี๋ยวผมจะส่งข้อความไปหาเพื่อนครับ",
+      "split": ["เดี๋ยว", "ผม", "จะ", "ส่ง", "ข้อความ", "ไป", "หา", "เพื่อน", "ครับ"],
+      "english": "In a moment I'll send a message to my friend.",
+      "new_words": ["หา", "เพื่อน"]
+    },
+    {
+      "thai": "เดี๋ยวผมจะโทรไปหาคุณครับ",
+      "split": ["เดี๋ยว", "ผม", "จะ", "โทร", "ไป", "หา", "คุณ", "ครับ"],
+      "english": "I'll call you in a moment.",
+      "new_words": ["โทร", "หา", "คุณ"]
+    },
+    {
+      "thai": "คุณโทรหาใครครับ",
+      "split": ["คุณ", "โทร", "หา", "ใคร", "ครับ"],
+      "english": "Who are you calling?",
+      "new_words": ["คุณ", "โทร", "หา"]
+    },
+    {
+      "thai": "ผมอาบน้ำเรียบร้อยแล้วครับ",
+      "split": ["ผม", "อาบน้ำ", "เรียบร้อย", "แล้ว", "ครับ"],
+      "english": "I've already showered.",
+      "new_words": []
+    },
+    {
+      "thai": "แฟนผมทำความสะอาดห้องเรียบร้อยแล้วครับ",
+      "split": ["แฟน", "ผม", "ทำความสะอาด", "ห้อง", "เรียบร้อย", "แล้ว", "ครับ"],
+      "english": "My girlfriend has already cleaned the room.",
+      "new_words": []
+    },
+    {
+      "thai": "รอบที่แล้วเราไปเที่ยวทะเลที่ภูเก็ตมาครับ",
+      "split": ["รอบที่แล้ว", "เรา", "ไป", "เที่ยว", "ทะเล", "ที่", "ภูเก็ต", "มา", "ครับ"],
+      "english": "Last time we went to the sea in Phuket.",
+      "new_words": ["ทะเล"]
+    },
+    {
+      "thai": "ผมชอบว่ายน้ำที่ทะเลตอนเช้าครับ",
+      "split": ["ผม", "ชอบ", "ว่ายน้ำ", "ที่", "ทะเล", "ตอนเช้า", "ครับ"],
+      "english": "I like swimming in the sea in the morning.",
+      "new_words": ["ว่ายน้ำ", "ทะเล"]
+    },
+    {
+      "thai": "ตอนเย็นเราชอบไปเดินเล่นที่สวนใกล้บ้านครับ",
+      "split": ["ตอนเย็น", "เรา", "ชอบ", "ไป", "เดินเล่น", "ที่", "สวน", "ใกล้", "บ้าน", "ครับ"],
+      "english": "In the evening we like to take a walk in the park near home.",
+      "new_words": ["บ้าน"]
+    },
+    {
+      "thai": "ตอนบ่ายผมนั่งทำงานที่ห้องสมุดครับ",
+      "split": ["ตอนบ่าย", "ผม", "นั่ง", "ทำงาน", "ที่", "ห้องสมุด", "ครับ"],
+      "english": "In the afternoon I sit and work at the library.",
+      "new_words": []
+    },
+    {
+      "thai": "ผมซื้อตุ๊กตาหมีให้แฟนครับ",
+      "split": ["ผม", "ซื้อ", "ตุ๊กตาหมี", "ให้", "แฟน", "ครับ"],
+      "english": "I bought a teddy bear for my girlfriend.",
+      "new_words": ["ซื้อ"]
+    },
+    {
+      "thai": "คุณซื้ออะไรมาครับ",
+      "split": ["คุณ", "ซื้อ", "อะไร", "มา", "ครับ"],
+      "english": "What did you buy?",
+      "new_words": ["คุณ", "ซื้อ"]
+    },
+    {
+      "thai": "กาแฟแก้วนี้อร่อยมากครับ",
+      "split": ["กาแฟ", "แก้ว", "นี้", "อร่อย", "มาก", "ครับ"],
+      "english": "This cup of coffee is really good.",
+      "new_words": ["อร่อย", "มาก"]
+    },
+    {
+      "thai": "ห้องนี้ให้เช่าไหมครับ",
+      "split": ["ห้อง", "นี้", "ให้เช่า", "ไหม", "ครับ"],
+      "english": "Is this room for rent?",
+      "new_words": ["ไหม"]
+    },
+    {
+      "thai": "เพื่อนผมกำลังหาห้องให้เช่าใกล้BTSอยู่ครับ",
+      "split": ["เพื่อน", "ผม", "กำลัง", "หา", "ห้อง", "ให้เช่า", "ใกล้", "BTS", "อยู่", "ครับ"],
+      "english": "My friend is looking for a room to rent near the BTS.",
+      "new_words": ["เพื่อน", "หา"]
+    },
+    {
+      "thai": "ผมติดต่อหมอเรียบร้อยแล้วครับ",
+      "split": ["ผม", "ติดต่อ", "หมอ", "เรียบร้อย", "แล้ว", "ครับ"],
+      "english": "I've already contacted the doctor.",
+      "new_words": []
+    },
+    {
+      "thai": "พรุ่งนี้แฟนผมจะไปหาหมอครับ",
+      "split": ["พรุ่งนี้", "แฟน", "ผม", "จะ", "ไป", "หาหมอ", "ครับ"],
+      "english": "Tomorrow my girlfriend is going to see a doctor.",
+      "new_words": []
+    },
+    {
+      "thai": "ทำไมคุณไปหาหมอครับ",
+      "split": ["ทำไม", "คุณ", "ไป", "หาหมอ", "ครับ"],
+      "english": "Why are you going to the doctor?",
+      "new_words": ["ทำไม", "คุณ"]
+    },
+    {
+      "thai": "ผมไปหาหมอเพราะนอนไม่หลับครับ",
+      "split": ["ผม", "ไป", "หาหมอ", "เพราะ", "นอน", "ไม่", "หลับ", "ครับ"],
+      "english": "I'm going to the doctor because I can't sleep.",
+      "new_words": ["เพราะ"]
+    },
+    {
+      "thai": "ผมเหนื่อยเพราะทำงานทั้งวันครับ",
+      "split": ["ผม", "เหนื่อย", "เพราะ", "ทำงาน", "ทั้งวัน", "ครับ"],
+      "english": "I'm tired because I worked all day.",
+      "new_words": ["เหนื่อย", "เพราะ", "ทั้งวัน"]
+    },
+    {
+      "thai": "วันนี้แฟนผมไม่ไปทำงานเพราะเหนื่อยมากครับ",
+      "split": ["วันนี้", "แฟน", "ผม", "ไม่", "ไป", "ทำงาน", "เพราะ", "เหนื่อย", "มาก", "ครับ"],
+      "english": "Today my girlfriend isn't going to work because she's very tired.",
+      "new_words": ["เพราะ", "เหนื่อย", "มาก"]
+    },
+    {
+      "thai": "เราจะกินอาหารเย็นที่ร้านใกล้สถานีครับ",
+      "split": ["เรา", "จะ", "กิน", "อาหารเย็น", "ที่", "ร้าน", "ใกล้", "สถานี", "ครับ"],
+      "english": "We'll have dinner at a restaurant near the station.",
+      "new_words": ["ร้าน"]
+    },
+    {
+      "thai": "คุณกินอาหารเจไหมครับ",
+      "split": ["คุณ", "กิน", "อาหารเจ", "ไหม", "ครับ"],
+      "english": "Do you eat vegetarian food?",
+      "new_words": ["คุณ", "ไหม"]
+    },
+    {
+      "thai": "แฟนผมไม่กินกุ้งครับ",
+      "split": ["แฟน", "ผม", "ไม่", "กิน", "กุ้ง", "ครับ"],
+      "english": "My girlfriend doesn't eat shrimp.",
+      "new_words": []
+    },
+    {
+      "thai": "ร้านนี้อร่อยไหมครับ",
+      "split": ["ร้าน", "นี้", "อร่อย", "ไหม", "ครับ"],
+      "english": "Is this restaurant good?",
+      "new_words": ["ร้าน", "อร่อย", "ไหม"]
+    },
+    {
+      "thai": "ผมดื่มกาแฟทุกวันแต่แฟนผมไม่ดื่มครับ",
+      "split": ["ผม", "ดื่ม", "กาแฟ", "ทุกวัน", "แต่", "แฟน", "ผม", "ไม่", "ดื่ม", "ครับ"],
+      "english": "I drink coffee every day, but my girlfriend doesn't.",
+      "new_words": ["แต่"]
+    },
+    {
+      "thai": "คุณจะมาเมื่อไรครับ",
+      "split": ["คุณ", "จะ", "มา", "เมื่อไร", "ครับ"],
+      "english": "When will you come?",
+      "new_words": ["คุณ", "เมื่อไร"]
+    },
+    {
+      "thai": "เพื่อนผมจะมากรุงเทพฯพรุ่งนี้ครับ",
+      "split": ["เพื่อน", "ผม", "จะ", "มา", "กรุงเทพฯ", "พรุ่งนี้", "ครับ"],
+      "english": "My friend is coming to Bangkok tomorrow.",
+      "new_words": ["เพื่อน"]
+    },
+    {
+      "thai": "เมื่อวานเรานั่งแท็กซี่ไปร้านกาแฟครับ",
+      "split": ["เมื่อวาน", "เรา", "นั่ง", "แท็กซี่", "ไป", "ร้านกาแฟ", "ครับ"],
+      "english": "Yesterday we took a taxi to the café.",
+      "new_words": ["แท็กซี่"]
+    },
+    {
+      "thai": "ผมไม่ชอบขับรถในกรุงเทพฯครับ",
+      "split": ["ผม", "ไม่", "ชอบ", "ขับ", "รถ", "ใน", "กรุงเทพฯ", "ครับ"],
+      "english": "I don't like driving in Bangkok.",
+      "new_words": ["ใน"]
+    },
+    {
+      "thai": "ตอนนี้แฟนผมกำลังขับรถไปทำงานครับ",
+      "split": ["ตอนนี้", "แฟน", "ผม", "กำลัง", "ขับ", "รถ", "ไป", "ทำงาน", "ครับ"],
+      "english": "My girlfriend is driving to work right now.",
+      "new_words": []
+    },
+    {
+      "thai": "ผมเรียนภาษาไทยกับเพื่อนทุกเช้าครับ",
+      "split": ["ผม", "เรียน", "ภาษาไทย", "กับ", "เพื่อน", "ทุกเช้า", "ครับ"],
+      "english": "I study Thai with a friend every morning.",
+      "new_words": ["เรียน", "ภาษาไทย", "เพื่อน"]
+    },
+    {
+      "thai": "ผมชอบเรียนภาษาไทยมากครับ",
+      "split": ["ผม", "ชอบ", "เรียน", "ภาษาไทย", "มาก", "ครับ"],
+      "english": "I really like studying Thai.",
+      "new_words": ["เรียน", "ภาษาไทย", "มาก"]
+    },
+    {
+      "thai": "คุณเรียนภาษาไทยที่ไหนครับ",
+      "split": ["คุณ", "เรียน", "ภาษาไทย", "ที่ไหน", "ครับ"],
+      "english": "Where do you study Thai?",
+      "new_words": ["คุณ", "เรียน", "ภาษาไทย", "ที่ไหน"]
+    },
+    {
+      "thai": "แฟนผมทำอาหารอร่อยมากครับ",
+      "split": ["แฟน", "ผม", "ทำ", "อาหาร", "อร่อย", "มาก", "ครับ"],
+      "english": "My girlfriend cooks really tasty food.",
+      "new_words": ["อร่อย", "มาก"]
+    },
+    {
+      "thai": "เย็นนี้ผมจะทำอาหารให้แฟนกินครับ",
+      "split": ["เย็นนี้", "ผม", "จะ", "ทำ", "อาหาร", "ให้", "แฟน", "กิน", "ครับ"],
+      "english": "This evening I'll cook for my girlfriend.",
+      "new_words": []
+    },
+    {
+      "thai": "ผมหิวมากเดี๋ยวจะไปกินข้าวครับ",
+      "split": ["ผม", "หิว", "มาก", "เดี๋ยว", "จะ", "ไป", "กิน", "ข้าว", "ครับ"],
+      "english": "I'm very hungry; I'll go eat in a moment.",
+      "new_words": ["หิว", "มาก"]
+    },
+    {
+      "thai": "คุณดูหนังอะไรอยู่ครับ",
+      "split": ["คุณ", "ดู", "หนัง", "อะไร", "อยู่", "ครับ"],
+      "english": "What movie are you watching?",
+      "new_words": ["คุณ", "ดู", "หนัง"]
+    },
+    {
+      "thai": "เมื่อคืนเราดูหนังที่บ้านเพื่อนครับ",
+      "split": ["เมื่อคืน", "เรา", "ดู", "หนัง", "ที่", "บ้าน", "เพื่อน", "ครับ"],
+      "english": "Last night we watched a movie at a friend's place.",
+      "new_words": ["ดู", "หนัง", "บ้าน", "เพื่อน"]
+    },
+    {
+      "thai": "ผมไม่ค่อยดูหนังครับ",
+      "split": ["ผม", "ไม่ค่อย", "ดู", "หนัง", "ครับ"],
+      "english": "I don't watch movies much.",
+      "new_words": ["ดู", "หนัง"]
+    },
+    {
+      "thai": "บ้านของคุณอยู่ที่ไหนครับ",
+      "split": ["บ้าน", "ของ", "คุณ", "อยู่", "ที่ไหน", "ครับ"],
+      "english": "Where is your home?",
+      "new_words": ["บ้าน", "คุณ", "ที่ไหน"]
+    },
+    {
+      "thai": "บ้านของผมอยู่ใกล้สวนครับ",
+      "split": ["บ้าน", "ของ", "ผม", "อยู่", "ใกล้", "สวน", "ครับ"],
+      "english": "My home is near a park.",
+      "new_words": ["บ้าน"]
+    },
+    {
+      "thai": "คอนโดของเราอยู่ใกล้สถานีต่อไปครับ",
+      "split": ["คอนโด", "ของ", "เรา", "อยู่", "ใกล้", "สถานี", "ต่อไป", "ครับ"],
+      "english": "Our condo is near the next station.",
+      "new_words": []
+    },
+    {
+      "thai": "น้ำตกที่เชียงใหม่ดีมากครับ",
+      "split": ["น้ำตก", "ที่", "เชียงใหม่", "ดี", "มาก", "ครับ"],
+      "english": "The waterfalls in Chiang Mai are great.",
+      "new_words": ["เชียงใหม่", "มาก"]
+    },
+    {
+      "thai": "คุณไปเที่ยวเชียงใหม่มาไหมครับ",
+      "split": ["คุณ", "ไป", "เที่ยว", "เชียงใหม่", "มา", "ไหม", "ครับ"],
+      "english": "Did you go to Chiang Mai?",
+      "new_words": ["คุณ", "เชียงใหม่", "ไหม"]
+    },
+    {
+      "thai": "รอบที่แล้วผมไปเที่ยวเชียงใหม่กับเพื่อนมาครับ",
+      "split": ["รอบที่แล้ว", "ผม", "ไป", "เที่ยว", "เชียงใหม่", "กับ", "เพื่อน", "มา", "ครับ"],
+      "english": "Last time I went to Chiang Mai with a friend.",
+      "new_words": ["เชียงใหม่", "เพื่อน"]
+    },
+    {
+      "thai": "เราชอบว่ายน้ำและเดินเล่นที่ทะเลครับ",
+      "split": ["เรา", "ชอบ", "ว่ายน้ำ", "และ", "เดินเล่น", "ที่", "ทะเล", "ครับ"],
+      "english": "We like swimming and walking by the sea.",
+      "new_words": ["ว่ายน้ำ", "และ", "ทะเล"]
+    },
+    {
+      "thai": "ห้ามนอนในสวน",
+      "split": ["ห้าม", "นอน", "ใน", "สวน"],
+      "english": "No sleeping in the park.",
+      "new_words": ["ใน"]
+    },
+    {
+      "thai": "ใครทำความสะอาดห้องน้ำครับ",
+      "split": ["ใคร", "ทำความสะอาด", "ห้องน้ำ", "ครับ"],
+      "english": "Who cleans the bathroom?",
+      "new_words": []
+    },
+    {
+      "thai": "ใครทำอาหารที่บ้านคุณครับ",
+      "split": ["ใคร", "ทำ", "อาหาร", "ที่", "บ้าน", "คุณ", "ครับ"],
+      "english": "Who cooks at your home?",
+      "new_words": ["บ้าน", "คุณ"]
+    },
+    {
+      "thai": "ผมกับแฟนทำความสะอาดคอนโดตอนเช้าครับ",
+      "split": ["ผม", "กับ", "แฟน", "ทำความสะอาด", "คอนโด", "ตอนเช้า", "ครับ"],
+      "english": "My girlfriend and I clean the condo in the morning.",
+      "new_words": []
+    },
+    {
+      "thai": "ผมส่งข้อความหาแฟนทุกวันครับ",
+      "split": ["ผม", "ส่ง", "ข้อความ", "หา", "แฟน", "ทุกวัน", "ครับ"],
+      "english": "I send my girlfriend a message every day.",
+      "new_words": ["หา"]
+    },
+    {
+      "thai": "ผมชอบกาแฟเย็นแต่แฟนชอบกาแฟร้อนครับ",
+      "split": ["ผม", "ชอบ", "กาแฟเย็น", "แต่", "แฟน", "ชอบ", "กาแฟร้อน", "ครับ"],
+      "english": "I like iced coffee, but my girlfriend likes hot coffee.",
+      "new_words": ["แต่"]
+    },
+    {
+      "thai": "อาหารอร่อยแต่ร้อนมากครับ",
+      "split": ["อาหาร", "อร่อย", "แต่", "ร้อน", "มาก", "ครับ"],
+      "english": "The food is tasty but very hot.",
+      "new_words": ["อร่อย", "แต่", "มาก"]
+    },
+    {
+      "thai": "วันนี้ร้อนมากครับ",
+      "split": ["วันนี้", "ร้อน", "มาก", "ครับ"],
+      "english": "It's very hot today.",
+      "new_words": ["มาก"]
+    },
+    {
+      "thai": "เมื่อวานไม่ค่อยร้อนครับ",
+      "split": ["เมื่อวาน", "ไม่ค่อย", "ร้อน", "ครับ"],
+      "english": "Yesterday wasn't very hot.",
+      "new_words": []
+    },
+    {
+      "thai": "คุณอาศัยอยู่ที่กรุงเทพฯกับใครครับ",
+      "split": ["คุณ", "อาศัย", "อยู่", "ที่", "กรุงเทพฯ", "กับ", "ใคร", "ครับ"],
+      "english": "Who do you live with in Bangkok?",
+      "new_words": ["คุณ"]
+    },
+    {
+      "thai": "ผมอาศัยอยู่กับแฟนและตุ๊กตาหมีครับ",
+      "split": ["ผม", "อาศัย", "อยู่", "กับ", "แฟน", "และ", "ตุ๊กตาหมี", "ครับ"],
+      "english": "I live with my girlfriend and a teddy bear.",
+      "new_words": ["และ"]
+    },
+    {
+      "thai": "ผมทำงานที่บ้านผ่านคอมครับ",
+      "split": ["ผม", "ทำงาน", "ที่", "บ้าน", "ผ่าน", "คอม", "ครับ"],
+      "english": "I work from home on my computer.",
+      "new_words": ["บ้าน"]
+    },
+    {
+      "thai": "คุณทำงานอะไรครับ",
+      "split": ["คุณ", "ทำงาน", "อะไร", "ครับ"],
+      "english": "What do you do for work?",
+      "new_words": ["คุณ"]
+    },
+    {
+      "thai": "คุณทำอะไรอยู่ครับ",
+      "split": ["คุณ", "ทำ", "อะไร", "อยู่", "ครับ"],
+      "english": "What are you doing?",
+      "new_words": ["คุณ"]
+    },
+    {
+      "thai": "ตอนนี้ผมกำลังดูหนังกับแฟนอยู่ครับ",
+      "split": ["ตอนนี้", "ผม", "กำลัง", "ดู", "หนัง", "กับ", "แฟน", "อยู่", "ครับ"],
+      "english": "I'm watching a movie with my girlfriend right now.",
+      "new_words": ["ดู", "หนัง"]
+    },
+    {
+      "thai": "เดี๋ยวเราจะไปว่ายน้ำกันครับ",
+      "split": ["เดี๋ยว", "เรา", "จะ", "ไป", "ว่ายน้ำ", "กัน", "ครับ"],
+      "english": "We're going swimming in a moment.",
+      "new_words": ["ว่ายน้ำ"]
+    },
+    {
+      "thai": "พรุ่งนี้ผมจะตื่นเช้าครับ",
+      "split": ["พรุ่งนี้", "ผม", "จะ", "ตื่น", "เช้า", "ครับ"],
+      "english": "Tomorrow I'll wake up early.",
+      "new_words": ["ตื่น"]
+    },
+    {
+      "thai": "แฟนผมไม่ชอบตื่นเช้าครับ",
+      "split": ["แฟน", "ผม", "ไม่", "ชอบ", "ตื่น", "เช้า", "ครับ"],
+      "english": "My girlfriend doesn't like waking up early.",
+      "new_words": ["ตื่น"]
+    },
+    {
+      "thai": "คุณกินอาหารเช้าที่ไหนครับ",
+      "split": ["คุณ", "กิน", "อาหารเช้า", "ที่ไหน", "ครับ"],
+      "english": "Where do you have breakfast?",
+      "new_words": ["คุณ", "ที่ไหน"]
+    },
+    {
+      "thai": "ผมซื้อน้ำเปล่าสองแก้วที่ร้านกาแฟครับ",
+      "split": ["ผม", "ซื้อ", "น้ำเปล่า", "สอง", "แก้ว", "ที่", "ร้านกาแฟ", "ครับ"],
+      "english": "I bought two glasses of water at the café.",
+      "new_words": ["ซื้อ"]
+    },
+    {
+      "thai": "ทำไมคุณมาสายครับ",
+      "split": ["ทำไม", "คุณ", "มาสาย", "ครับ"],
+      "english": "Why are you late?",
+      "new_words": ["ทำไม", "คุณ"]
+    },
+    {
+      "thai": "ผมมาสายเพราะตื่นสายครับ",
+      "split": ["ผม", "มาสาย", "เพราะ", "ตื่น", "สาย", "ครับ"],
+      "english": "I'm late because I woke up late.",
+      "new_words": ["เพราะ", "ตื่น"]
+    },
+    {
+      "thai": "ร้านอาหารใกล้คอนโดของเราอร่อยมากครับ",
+      "split": ["ร้านอาหาร", "ใกล้", "คอนโด", "ของ", "เรา", "อร่อย", "มาก", "ครับ"],
+      "english": "The restaurant near our condo is really good.",
+      "new_words": ["ร้าน", "อร่อย", "มาก"]
+    },
+    {
+      "thai": "เย็นนี้เราจะไปดูหนังและกินอาหารเย็นกันครับ",
+      "split": ["เย็นนี้", "เรา", "จะ", "ไป", "ดู", "หนัง", "และ", "กิน", "อาหารเย็น", "กัน", "ครับ"],
+      "english": "This evening we'll go watch a movie and have dinner together.",
+      "new_words": ["ดู", "หนัง", "และ"]
+    },
+    {
+      "thai": "ผมหิวแต่แฟนไม่หิวครับ",
+      "split": ["ผม", "หิว", "แต่", "แฟน", "ไม่", "หิว", "ครับ"],
+      "english": "I'm hungry, but my girlfriend isn't.",
+      "new_words": ["หิว", "แต่"]
+    }
+  ]
+}
