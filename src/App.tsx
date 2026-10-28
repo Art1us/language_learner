@@ -44,7 +44,8 @@ type Screen =
       right: number
       t0: number
       times: number[]
-      wrong: string[] // split mode: words not isolated correctly
+      wrong: string[] // split mode: words not isolated correctly (unique)
+      nWrong: number // split mode: every wrong word, counted per sentence
       paused?: number
     }
   | {
@@ -55,6 +56,7 @@ type Screen =
       missed: Item[]
       times: number[]
       wrong: string[]
+      nWrong: number
     }
 
 export default function App() {
@@ -97,6 +99,7 @@ export default function App() {
       t0: Date.now(),
       times: [],
       wrong: [],
+      nWrong: 0,
     })
 
   if (screen.s === 'home')
@@ -185,7 +188,7 @@ export default function App() {
             </button>
           )}
         </div>
-        <p className="muted small">{km ? 'Keys: Space play · Enter check / next · S show answer · Backspace clear' : 'Keys: M/H/L class · 1–5 options · Space mic / replay · Enter next / reveal · 1 got it, 2 missed'}</p>
+        <p className="muted small keys">{km ? 'Keys: Space play · Enter check / next · S show answer · Backspace clear' : 'Keys: M/H/L class · 1–5 options · Space mic / replay · Enter next / reveal · 1 got it, 2 missed'}</p>
       </main>
     )
 
@@ -215,7 +218,7 @@ export default function App() {
   }
 
   if (screen.s === 'round') {
-    const { mode, queue, i, missed, right, t0, times, wrong } = screen
+    const { mode, queue, i, missed, right, t0, times, wrong, nWrong } = screen
     const letter = queue[i]
     const onDone = (ok: boolean, words: string[] = []) => {
       record(mode, letter.ch, ok)
@@ -224,6 +227,7 @@ export default function App() {
         right: right + (ok ? 1 : 0),
         times: [...times, Date.now() - t0],
         wrong: [...wrong, ...words.filter((w) => !wrong.includes(w))],
+        nWrong: nWrong + words.length,
       }
       if (i + 1 < queue.length) setScreen({ ...screen, ...next, i: i + 1, t0: Date.now() })
       else setScreen({ s: 'end', mode, queue, ...next })
@@ -252,7 +256,7 @@ export default function App() {
           <button className="btn subtle" onClick={screen.paused ? resume : pause} aria-label={screen.paused ? 'Resume' : 'Pause'}>
             {screen.paused ? '▶' : '⏸'}
           </button>
-          <button className="btn subtle" aria-label="Stop and show stats" onClick={() => (times.length ? setScreen({ s: 'end', mode, queue: queue.slice(0, times.length), right, missed, times, wrong }) : setScreen({ s: 'home' }))}>
+          <button className="btn subtle" aria-label="Stop and show stats" onClick={() => (times.length ? setScreen({ s: 'end', mode, queue: queue.slice(0, times.length), right, missed, times, wrong, nWrong }) : setScreen({ s: 'home' }))}>
             ⏹
           </button>
         </header>
@@ -277,8 +281,9 @@ export default function App() {
     )
   }
 
-  const { mode, queue, right, missed, times, wrong } = screen // queue = answered cards only
+  const { mode, queue, right, missed, times, wrong, nWrong } = screen // queue = answered cards only
   const sec = (ms: number) => (ms / 1000).toFixed(1) + ' s'
+  const nWords = mode === 'split' ? (queue as Sentence[]).reduce((n, s) => n + s.split.length, 0) : 0
   const byTime = queue.map((l, i) => [l, times[i]] as const).sort((a, b) => b[1] - a[1])
   return (
     <main className="end">
@@ -287,6 +292,11 @@ export default function App() {
         {right} / {queue.length}
       </div>
       <p className="muted">Average {sec(times.reduce((a, b) => a + b, 0) / times.length)} per card</p>
+      {mode === 'split' && (
+        <p className="muted">
+          Mistakes: {Math.round((100 * nWrong) / nWords)}% of words ({nWrong} of {nWords})
+        </p>
+      )}
       {missed.length ? (
         <>
           <p className="muted">Missed</p>
