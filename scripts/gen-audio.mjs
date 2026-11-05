@@ -1,4 +1,4 @@
-// Pre-renders each letter name (keyed by the letter), each example word and each split-mode word/sentence (keyed by itself)
+// Pre-renders each letter name (keyed by the letter), each example word, each split-mode word/sentence and each vocabulary word/phrase (keyed by itself)
 // into public/audio/<codepoints>.mp3. Bundled clips are used because Chrome on macOS drops
 // Thai text passed to speechSynthesis.
 //
@@ -13,6 +13,7 @@ import { EXAMPLES, LETTERS, TONE_WORDS, VOWELS, clipFile } from '../src/data.ts'
 
 const KM = process.env.LANG === 'km'
 const { sentences, glossary } = JSON.parse(readFileSync(KM ? 'src/sentences.km.json' : 'src/sentences.json', 'utf8')) // split mode: every word + every sentence
+const vocab = KM ? [] : ['src/vocabulary.json', 'src/phrases.json'].flatMap((f) => JSON.parse(readFileSync(f, 'utf8')).map((w) => w.thai))
 
 const KEY = process.env.ELEVENLABS_API_KEY
 const EDGE_TTS = process.env.EDGE_TTS ?? edgeTts()
@@ -52,7 +53,7 @@ const clips = KM
   ? [...Object.keys(glossary), ...sentences.map((x) => x.thai)].map((w) => [w, w])
   : [
       ...LETTERS.map((l) => [l.ch, l.thai]),
-      ...[...new Set([...Object.values(EXAMPLES).flatMap((e) => [e.start?.[0], e.end?.[0]].filter(Boolean)), ...TONE_WORDS.map((w) => w.ch), ...VOWELS.map((v) => v.word), ...Object.keys(glossary), ...sentences.map((x) => x.thai)])].map((w) => [w, w]),
+      ...[...new Set([...Object.values(EXAMPLES).flatMap((e) => [e.start?.[0], e.end?.[0]].filter(Boolean)), ...TONE_WORDS.map((w) => w.ch), ...VOWELS.map((v) => v.word), ...Object.keys(glossary), ...sentences.map((x) => x.thai), ...vocab])].map((w) => [w, w]),
     ]
 for (const [key, text] of clips) {
   const out = `public/audio/${clipFile(key)}`

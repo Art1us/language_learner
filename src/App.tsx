@@ -6,12 +6,13 @@ import { SpeakMode } from './SpeakMode'
 import { ToneMode } from './ToneMode'
 import { VowelMode } from './VowelMode'
 import { SplitMode } from './SplitMode'
+import { VocabMode, VOCAB, PHRASES, type Vocab } from './VocabMode'
 import { GLOSSARY, SENTENCES, type Sentence } from './split'
 import { LETTERS, TONE_WORDS, VOWELS, filterLetters, filterToneWords, type Filter, type Letter, type ToneWord, type Vowel } from './data'
 import { useKeys } from './ui'
 import { playClip } from './speech'
 import { lang, setLang } from './lang'
-import { MODES, drawRound, shuffle, drillNext, inPlay, mastered, record, reset, type Mode } from './store'
+import { MODES, drawRound, shuffle, drillNext, inPlay, mastered, getBox, record, reset, type Mode } from './store'
 
 const MODE_INFO: Record<Mode, [string, string]> = {
   class: ['Class & sounds', 'Middle, high or low? Then the start and end sounds.'],
@@ -20,10 +21,40 @@ const MODE_INFO: Record<Mode, [string, string]> = {
   tones: ['Tones', 'One-syllable word: which of the 5 tones? Learn the class / syllable / tone-mark rule.'],
   vowels: ['Complex vowels', 'Read the word aloud, play it, then mark yourself right or wrong.'],
   split: ['Split the sentence', 'A sentence with no spaces: tap where each word ends, then check.'],
+  vocab: ['Vocabulary Thai → English', 'A Thai word: recall the meaning, reveal, then Remember or Don\'t remember.'],
+  vocabrev: ['Vocabulary English → Thai', 'An English word: Remember or Don\'t remember first, then see the Thai.'],
+  sent: ['Sentences Thai → English', 'A Thai sentence: recall the meaning, reveal, then Remember or Don\'t remember.'],
+  sentrev: ['Sentences English → Thai', 'An English sentence: Remember or Don\'t remember first, then see the Thai.'],
+  learn: ['Learn vocabulary', 'New words come in gradually, most important and easiest first. Words you miss come back often, known ones rarely.'],
   drill: ['Learn step by step', 'Letters come in one at a time. Recall class, sounds and name, reveal, then mark yourself right or wrong.'],
 }
+/** Self-graded flashcard modes and their card lists; '…rev' = English on the front. */
+const FLASH: Partial<Record<Mode, Vocab[]>> = { learn: VOCAB, vocab: VOCAB, vocabrev: VOCAB, sent: PHRASES, sentrev: PHRASES }
 const FILTERS: Filter[] = ['M', 'H', 'L', 'All']
 const SIZES = [5, 10, 20, 50, Infinity] // cards per round; Infinity = whole pool
+const TIERS = ['Core', 'Everyday', 'Broad', 'Niche'] // vocabulary tier 1..4
+const LEVELS = ['Easy', 'Medium', 'Hard'] // vocabulary complexity 1..3
+/** Multi-select toggle that never leaves the selection empty. */
+const toggle = (xs: number[], x: number) => (xs.includes(x) ? (xs.length > 1 ? xs.filter((y) => y !== x) : xs) : [...xs, x].sort())
+const VOCAB_MODES: Mode[] = ['learn', 'vocab', 'vocabrev'] // filtered by tier and complexity
+const LEARN = { mode: 'learn' as const, start: 5, maxWeak: 3 } // 5 words to start; a new one while < 3 are weak
+const usesFilter = (m: Mode) => m !== 'vowels' && m !== 'split' && !FLASH[m]
+
+function Seg<T>({ label, opts, on, pick, name = String }: { label: string; opts: T[]; on: (o: T) => boolean; pick: (o: T) => void; name?: (o: T) => string }) {
+  return (
+    <>
+      <p className="muted small">{label}</p>
+      <div className="seg" role="group" aria-label={label}>
+        {opts.map((o) => (
+          <button key={String(o)} className={on(o) ? 'on' : ''} aria-pressed={on(o)} onClick={() => pick(o)}>
+            {name(o)}
+          </button>
+        ))}
+      </div>
+    </>
+  )
+}
+
 const FILTER_LABEL: Record<Filter, string> = {
   M: 'Middle',
   H: 'High',
@@ -31,10 +62,11 @@ const FILTER_LABEL: Record<Filter, string> = {
   All: 'All',
 }
 
-type Item = Letter | ToneWord | Vowel | Sentence
+type Item = Letter | ToneWord | Vowel | Sentence | Vocab
 type Screen =
   | { s: 'home' }
-  | { s: 'drill'; letter: Letter; n: number }
+  | { s: 'setup'; mode: Mode }
+  | { s: 'drill'; mode: 'drill' | 'learn'; letter: Letter | Vocab; n: number }
   | {
       s: 'round'
       mode: Mode
@@ -64,6 +96,9 @@ export default function App() {
   const [filter, setFilter] = useState<Filter>('All')
   const [reverse, setReverse] = useState(false)
   const [size, setSize] = useState(Infinity)
+  const [tiers, setTiers] = useState([1])
+  const [levels, setLevels] = useState([1, 2, 3])
+  const [learnRev, setLearnRev] = useState(false)
   const [textbook, setTextbook] = useState(false)
   useEffect(() => {
     document.documentElement.dataset.font = textbook ? 'textbook' : 'system'
@@ -87,7 +122,10 @@ export default function App() {
     )
   })
 
-  const poolOf = (mode: Mode): Item[] => mode === 'tones' ? filterToneWords(filter) : mode === 'vowels' ? VOWELS : mode === 'split' ? SENTENCES : filterLetters(filter)
+  const poolOf = (mode: Mode): Item[] => mode === 'tones' ? filterToneWords(filter) : mode === 'vowels' ? VOWELS : mode === 'split' ? SENTENCES : VOCAB_MODES.includes(mode) ? VOCAB.filter((w) => tiers.includes(w.tier!) && levels.includes(w.complexity!)) : FLASH[mode] ?? filterLetters(filter)
+  // progressive pools, in the order new items are introduced
+  const drillPool = (mode: 'drill' | 'learn'): (Letter | Vocab)[] =>
+    mode === 'drill' ? filterLetters(filter) : (poolOf('learn') as Vocab[]).toSorted((a, b) => a.tier! - b.tier! || a.complexity! - b.complexity!)
   const start = (mode: Mode, queue: Item[] = drawRound(mode, shuffle(poolOf(mode)).slice(0, size))) =>
     setScreen({
       s: 'round',
@@ -116,41 +154,20 @@ export default function App() {
           </div>
         </header>
         <p className="muted">{km ? 'Word splitting' : '40 letters'} · progress saved in this browser</p>
-        {!km && <div className="seg" role="radiogroup" aria-label="Letter class filter">
-          {FILTERS.map((f) => (
-            <button key={f} className={filter === f ? 'on' : ''} aria-checked={filter === f} role="radio" onClick={() => setFilter(f)}>
-              {FILTER_LABEL[f]}
-            </button>
-          ))}
-        </div>}
-        <div className="seg" role="radiogroup" aria-label="Cards per round">
-          {SIZES.map((n) => (
-            <button key={n} className={size === n ? 'on' : ''} aria-checked={size === n} role="radio" onClick={() => setSize(n)}>
-              {n === Infinity ? 'All' : n}
-            </button>
-          ))}
-        </div>
-        <p className="muted small">Cards per round</p>
         <div className="modes">
           {MODES.map((m) => (
-            <button key={m} className="mode" onClick={() => start(m)}>
+            <button key={m} className="mode" onClick={() => setScreen({ s: 'setup', mode: m })}>
               <strong>{MODE_INFO[m][0]}</strong>
               <span className="muted">{MODE_INFO[m][1]}</span>
               <span className="mastery">
-                {mastered(m)} / {(m === 'tones' ? TONE_WORDS : m === 'vowels' ? VOWELS : m === 'split' ? SENTENCES : LETTERS).length} mastered
+                {mastered(m)} / {(m === 'tones' ? TONE_WORDS : m === 'vowels' ? VOWELS : m === 'split' ? SENTENCES : FLASH[m] ?? LETTERS).length} mastered
               </span>
             </button>
           ))}
         </div>
         {!km && <button
           className="mode drill"
-          onClick={() =>
-            setScreen({
-              s: 'drill',
-              letter: drillNext(filterLetters(filter)),
-              n: 0,
-            })
-          }
+          onClick={() => setScreen({ s: 'setup', mode: 'drill' })}
         >
           <strong>{MODE_INFO.drill[0]}</strong>
           <span className="muted">{MODE_INFO.drill[1]}</span>
@@ -158,9 +175,6 @@ export default function App() {
             {mastered('drill')} / {LETTERS.length} mastered
           </span>
         </button>}
-        {!km && <label className="toggle">
-          <input type="checkbox" checked={reverse} onChange={(e) => setReverse(e.target.checked)} /> Names: show name, pick the letter
-        </label>}
         {!km && <label className="toggle">
           <input type="checkbox" checked={textbook} onChange={(e) => setTextbook(e.target.checked)} /> Textbook font (looped, as on school charts)
         </label>}
@@ -192,27 +206,65 @@ export default function App() {
       </main>
     )
 
-  if (screen.s === 'drill') {
-    const { letter, n } = screen
-    const pool = filterLetters(filter)
-    const onDone = (ok: boolean) => {
-      record('drill', letter.ch, ok)
-      setScreen({ s: 'drill', letter: drillNext(pool, letter), n: n + 1 })
-    }
+  if (screen.s === 'setup') {
+    const m = screen.mode
+    const progressive = m === 'drill' || m === 'learn'
+    const pool: Item[] = progressive ? drillPool(m) : poolOf(m)
+    const go = () => (progressive ? setScreen({ s: 'drill', mode: m, letter: drillNext(pool as (Letter | Vocab)[], undefined, m === 'learn' ? LEARN : {}), n: 0 }) : start(m))
     return (
-      <main>
+      <main className="home">
         <header className="bar">
           <button className="btn subtle" onClick={() => setScreen({ s: 'home' })}>
             ← Home
           </button>
+        </header>
+        <h1>{MODE_INFO[m][0]}</h1>
+        <p className="muted">{MODE_INFO[m][1]}</p>
+        {usesFilter(m) && <Seg label="Letter class" opts={FILTERS} on={(f) => f === filter} pick={setFilter} name={(f) => FILTER_LABEL[f]} />}
+        {VOCAB_MODES.includes(m) && (
+          <>
+            <Seg label="Tier (most important first)" opts={[1, 2, 3, 4]} on={(t) => tiers.includes(t)} pick={(t) => setTiers(toggle(tiers, t))} name={(t) => TIERS[t - 1]} />
+            <Seg label="Complexity" opts={[1, 2, 3]} on={(c) => levels.includes(c)} pick={(c) => setLevels(toggle(levels, c))} name={(c) => LEVELS[c - 1]} />
+          </>
+        )}
+        {m === 'learn' && <Seg label="Direction" opts={[false, true]} on={(r) => r === learnRev} pick={setLearnRev} name={(r) => (r ? 'English → Thai' : 'Thai → English')} />}
+        {!progressive && <Seg label="Cards per round" opts={SIZES} on={(n) => n === size} pick={setSize} name={(n) => (n === Infinity ? 'All' : String(n))} />}
+        {m === 'names' && (
+          <label className="toggle">
+            <input type="checkbox" checked={reverse} onChange={(e) => setReverse(e.target.checked)} /> Show name, pick the letter
+          </label>
+        )}
+        <p className="muted">
+          {pool.length} cards{progressive && ` · ${inPlay(pool, m).length} in play`} · {pool.filter((x) => getBox(m, x.ch) >= 4).length} mastered
+        </p>
+        <button className="btn primary wide" disabled={!pool.length} onClick={go}>
+          Start
+        </button>
+      </main>
+    )
+  }
+
+  if (screen.s === 'drill') {
+    const { mode, letter, n } = screen
+    const pool = drillPool(mode)
+    const onDone = (ok: boolean) => {
+      record(mode, letter.ch, ok)
+      setScreen({ s: 'drill', mode, letter: drillNext(pool, letter, mode === 'learn' ? LEARN : {}), n: n + 1 })
+    }
+    return (
+      <main>
+        <header className="bar">
+          <button className="btn subtle" onClick={() => setScreen({ s: 'setup', mode })}>
+            ← Back
+          </button>
           <span>
-            {MODE_INFO.drill[0]} · {FILTER_LABEL[filter]}
+            {MODE_INFO[mode][0]}{mode === 'drill' && ` · ${FILTER_LABEL[filter]}`}
           </span>
           <span className="muted">
-            {inPlay(pool).length} / {pool.length} in play
+            {inPlay(pool, mode).length} / {pool.length} in play
           </span>
         </header>
-        <DrillMode key={n} letter={letter} onDone={onDone} />
+        {mode === 'drill' ? <DrillMode key={n} letter={letter as Letter} onDone={onDone} /> : <VocabMode key={n} word={letter as Vocab} reverse={learnRev} onDone={onDone} />}
       </main>
     )
   }
@@ -244,11 +296,11 @@ export default function App() {
     return (
       <main>
         <header className="bar">
-          <button className="btn subtle" onClick={() => setScreen({ s: 'home' })}>
-            ← Home
+          <button className="btn subtle" onClick={() => setScreen({ s: 'setup', mode })}>
+            ← Back
           </button>
           <span>
-            {MODE_INFO[mode][0]}{mode !== 'vowels' && mode !== 'split' && ` · ${FILTER_LABEL[filter]}`}
+            {MODE_INFO[mode][0]}{mode !== 'vowels' && mode !== 'split' && !FLASH[mode] && ` · ${FILTER_LABEL[filter]}`}
           </span>
           <span className="muted">
             {i + 1} / {queue.length}
@@ -256,7 +308,7 @@ export default function App() {
           <button className="btn subtle" onClick={screen.paused ? resume : pause} aria-label={screen.paused ? 'Resume' : 'Pause'}>
             {screen.paused ? '▶' : '⏸'}
           </button>
-          <button className="btn subtle" aria-label="Stop and show stats" onClick={() => (times.length ? setScreen({ s: 'end', mode, queue: queue.slice(0, times.length), right, missed, times, wrong, nWrong }) : setScreen({ s: 'home' }))}>
+          <button className="btn subtle" aria-label="Stop and show stats" onClick={() => (times.length ? setScreen({ s: 'end', mode, queue: queue.slice(0, times.length), right, missed, times, wrong, nWrong }) : setScreen({ s: 'setup', mode }))}>
             ⏹
           </button>
         </header>
@@ -275,6 +327,7 @@ export default function App() {
             {mode === 'tones' && <ToneMode key={key} word={letter as ToneWord} onDone={onDone} />}
             {mode === 'vowels' && <VowelMode key={key} vowel={letter as Vowel} onDone={onDone} />}
             {mode === 'split' && <SplitMode key={key} sentence={letter as Sentence} onDone={onDone} />}
+            {FLASH[mode] && <VocabMode key={key} word={letter as Vocab} reverse={mode.endsWith('rev')} onDone={onDone} />}
           </>
         )}
       </main>
@@ -343,8 +396,8 @@ export default function App() {
         <button className="btn primary" onClick={() => start(mode)}>
           New round
         </button>
-        <button className="btn" onClick={() => setScreen({ s: 'home' })}>
-          Home
+        <button className="btn" onClick={() => setScreen({ s: 'setup', mode })}>
+          Settings
         </button>
       </div>
     </main>

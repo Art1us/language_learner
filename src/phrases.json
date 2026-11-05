@@ -1,0 +1,514 @@
+[
+  {
+    "thai": "ทำอะไร",
+    "eng": "what are you doing?"
+  },
+  {
+    "thai": "นี่คืออะไร",
+    "eng": "what is this?"
+  },
+  {
+    "thai": "ฝนตก",
+    "eng": "it's raining"
+  },
+  {
+    "thai": "มี ความ สุข มาก มาก ครับ",
+    "eng": "be very happy"
+  },
+  {
+    "thai": "ขอให้มีความสุขมากๆ",
+    "eng": "wishing you lots of happiness"
+  },
+  {
+    "thai": "สุขภาพแข็งแรงนะครับ",
+    "eng": "(wishing you) good health"
+  },
+  {
+    "thai": "อะไรวะ",
+    "eng": "what the hell?"
+  },
+  {
+    "thai": "ไปสูบชิชากันมั้ย",
+    "eng": "want to go smoke shisha?"
+  },
+  {
+    "thai": "ไม่เผ็ดไม่กิน",
+    "eng": "not spicy, won't eat"
+  },
+  {
+    "thai": "งดสูบบุหรี่ในห้อง",
+    "eng": "no smoking in the room"
+  },
+  {
+    "thai": "ผมไม่รู้เรื่องนี้ แต่ผมไม่ใช่คนโง่เขลา",
+    "eng": "I don't know about this, but I'm not a fool"
+  },
+  {
+    "thai": "ผมมาจากประเทศยูเครนครับ",
+    "eng": "I'm from Ukraine"
+  },
+  {
+    "thai": "ตอนนี้ผมกับแฟนอาศัยอยู่ที่กรุงเทพฯ ครับ",
+    "eng": "now my girlfriend and I live in Bangkok"
+  },
+  {
+    "thai": "คอนโดของเราอยู่ใกล้สถานีรถไฟฟ้า",
+    "eng": "our condo is near the skytrain station"
+  },
+  {
+    "thai": "แฟนของผมชอบดื่มกาแฟเย็นทุกเช้า",
+    "eng": "my girlfriend likes to drink iced coffee every morning"
+  },
+  {
+    "thai": "เราชอบไปเดินเล่นที่สวนตอนเย็น",
+    "eng": "we like to go for walks in the park in the evening"
+  },
+  {
+    "thai": "ตอนกลางวันผมทำงานผ่านคอมที่ห้องครับ",
+    "eng": "during the day I work on my computer in my room"
+  },
+  {
+    "thai": "ผมขอใส่ถุงพลาสติกด้วยครับ",
+    "eng": "please put it in a plastic bag"
+  },
+  {
+    "thai": "เย็นนี้แฟนผมจะทำอาหารเย็นให้กิน",
+    "eng": "tonight my girlfriend will cook dinner for me"
+  },
+  {
+    "thai": "พรุ่งนี้ผมจะไปหาหมอครับ",
+    "eng": "tomorrow I'm going to see a doctor"
+  },
+  {
+    "thai": "เดี๋ยวเราจะไปกินข้าวกันครับ",
+    "eng": "we're going to eat soon"
+  },
+  {
+    "thai": "เดี๋ยวผมจะส่งข้อความไปให้ครับ",
+    "eng": "I'll send you a message in a moment"
+  },
+  {
+    "thai": "เมื่อวานผมไปทำงานสายครับ",
+    "eng": "yesterday I was late for work"
+  },
+  {
+    "thai": "ผมกินข้าวเรียบร้อยแล้วครับ",
+    "eng": "I've already eaten"
+  },
+  {
+    "thai": "รอบที่แล้วผมไปเที่ยวภูเก็ตมาครับ",
+    "eng": "last time I went on a trip to Phuket"
+  },
+  {
+    "thai": "เมื่อคืนนี้นอนไม่ค่อยหลับครับ",
+    "eng": "last night I couldn't sleep well"
+  },
+  {
+    "thai": "ตอนนี้ผมกำลังขับรถอยู่ครับ",
+    "eng": "I'm driving right now"
+  },
+  {
+    "thai": "ผมนั่งทำงานอยู่ที่ร้านกาแฟครับ",
+    "eng": "I'm working at a coffee shop"
+  },
+  {
+    "thai": "แฟนผมกำลังทำอาหารอยู่ครับ",
+    "eng": "my girlfriend is cooking"
+  },
+  {
+    "thai": "เรียกวินมอเตอร์ไซค์ไปปากซอยแป๊บเดียวก็ถึง",
+    "eng": "call a motorbike taxi to the mouth of the soi, you'll be there in a moment"
+  },
+  {
+    "thai": "เป็นยังไงบ้างครับ",
+    "eng": "how are you?"
+  },
+  {
+    "thai": "ทำอะไรอยู่",
+    "eng": "what are you doing?"
+  },
+  {
+    "thai": "กินข้าวหรือยัง",
+    "eng": "have you eaten yet?"
+  },
+  {
+    "thai": "หิวแล้วครับ",
+    "eng": "I'm hungry now"
+  },
+  {
+    "thai": "ขอเมนูหน่อยครับ",
+    "eng": "may I have the menu, please?"
+  },
+  {
+    "thai": "ไม่ใส่พริกครับ",
+    "eng": "no chili, please"
+  },
+  {
+    "thai": "คุณเป็นคนไทยใช่ไหมครับ",
+    "eng": "you're Thai, right?"
+  },
+  {
+    "thai": "คุณเป็นคนไทยใช่มั้ยครับ",
+    "eng": "you're Thai, right? (colloquial)"
+  },
+  {
+    "thai": "พรุ่งนี้คุณว่างใช่ไหมครับ",
+    "eng": "you're free tomorrow, right?"
+  },
+  {
+    "thai": "อันนี้อร่อยใช่ไหมครับ",
+    "eng": "this is delicious, right?"
+  },
+  {
+    "thai": "คอนโดนี้อยู่ใกล้สถานี",
+    "eng": "this condo is near the station"
+  },
+  {
+    "thai": "คุณชอบกินอาหารเผ็ดใช่ไหมครับ",
+    "eng": "you like spicy food, right?"
+  },
+  {
+    "thai": "คุณอยากไปเที่ยวพัทยาใช่ไหมครับ",
+    "eng": "you want to go to Pattaya, right?"
+  },
+  {
+    "thai": "อยู่ที่ไหน",
+    "eng": "where is it?"
+  },
+  {
+    "thai": "อยู่ไหน",
+    "eng": "where is it? (casual)"
+  },
+  {
+    "thai": "ห้องน้ำอยู่ที่ไหนครับ",
+    "eng": "where is the bathroom?"
+  },
+  {
+    "thai": "ตอนนี้คุณอยู่ที่ไหนครับ",
+    "eng": "where are you now?"
+  },
+  {
+    "thai": "อยู่ไหนครับ",
+    "eng": "where is it? (polite)"
+  },
+  {
+    "thai": "โรงแรมนี้อยู่ที่ไหนครับ",
+    "eng": "where is this hotel?"
+  },
+  {
+    "thai": "ตลาดนัดกลางคืนอยู่ที่ไหนครับ",
+    "eng": "where is the night market?"
+  },
+  {
+    "thai": "พาสปอร์ตของผมอยู่ที่ไหนครับ",
+    "eng": "where is my passport?"
+  },
+  {
+    "thai": "ป้ายรถเมล์อยู่ที่ไหนครับ",
+    "eng": "where is the bus stop?"
+  },
+  {
+    "thai": "โรงพยาบาลที่ใกล้ที่สุดอยู่ที่ไหนครับ",
+    "eng": "where is the nearest hospital?"
+  },
+  {
+    "thai": "พูดช้าหน่อยได้ไหมครับ",
+    "eng": "could you speak a bit slower?"
+  },
+  {
+    "thai": "ยืมปากกาหน่อยได้ไหมครับ",
+    "eng": "could I borrow a pen?"
+  },
+  {
+    "thai": "ช่วยปิดประตูหน่อยครับ",
+    "eng": "please close the door"
+  },
+  {
+    "thai": "ช่วยเปิดไฟหน่อยครับ",
+    "eng": "please turn on the light"
+  },
+  {
+    "thai": "อายุเท่าไหร่ครับ",
+    "eng": "how old are you?"
+  },
+  {
+    "thai": "อันนี้เท่าไหร่ครับ",
+    "eng": "how much is this?"
+  },
+  {
+    "thai": "ค่าส่งเท่าไหร่ครับ",
+    "eng": "how much is shipping?"
+  },
+  {
+    "thai": "สูงเท่าไหร่ครับ",
+    "eng": "how tall is it?"
+  },
+  {
+    "thai": "ระยะทางเท่าไหร่ครับ",
+    "eng": "how far is it?"
+  },
+  {
+    "thai": "หนักเท่าไหร่ครับ",
+    "eng": "how heavy is it?"
+  },
+  {
+    "thai": "กี่คนครับ",
+    "eng": "how many people?"
+  },
+  {
+    "thai": "กี่ชั่วโมงครับ",
+    "eng": "how many hours?"
+  },
+  {
+    "thai": "กี่วันครับ",
+    "eng": "how many days?"
+  },
+  {
+    "thai": "กี่ขวดครับ",
+    "eng": "how many bottles?"
+  },
+  {
+    "thai": "กี่แก้วครับ",
+    "eng": "how many glasses?"
+  },
+  {
+    "thai": "กี่เดือนครับ",
+    "eng": "how many months?"
+  },
+  {
+    "thai": "กี่ห้องครับ",
+    "eng": "how many rooms?"
+  },
+  {
+    "thai": "กี่นาที",
+    "eng": "how many minutes?"
+  },
+  {
+    "thai": "เช็คบิลด้วยครับ",
+    "eng": "the bill, please"
+  },
+  {
+    "thai": "กาแฟนี้อร่อยใช่ไหมครับ",
+    "eng": "this coffee is good, right?"
+  },
+  {
+    "thai": "จ่ายบัตรเครดิตได้ไหมครับ",
+    "eng": "can I pay by credit card?"
+  },
+  {
+    "thai": "ลองอันนี้ได้ไหมครับ",
+    "eng": "can I try this one?"
+  },
+  {
+    "thai": "ทั้งหมดเท่าไหร่ครับ",
+    "eng": "how much is it altogether?"
+  },
+  {
+    "thai": "ค่าเช่าเดือนละเท่าไหร่ครับ",
+    "eng": "how much is the rent per month?"
+  },
+  {
+    "thai": "คุณจะอยู่ที่นี่กี่วันครับ",
+    "eng": "how many days will you stay here?"
+  },
+  {
+    "thai": "คิดว่าวันนี้ฝนจะตกครับ",
+    "eng": "I think it will rain today"
+  },
+  {
+    "thai": "คิดว่าเขาเป็นคนดีครับ",
+    "eng": "I think he's a good person"
+  },
+  {
+    "thai": "คิดว่าภาษาไทยสนุกมากครับ",
+    "eng": "I think Thai is a lot of fun"
+  },
+  {
+    "thai": "คุณจะกลับเมื่อไหร่ครับ",
+    "eng": "when will you go back?"
+  },
+  {
+    "thai": "วีซ่าจะหมดอายุเมื่อไหร่ครับ",
+    "eng": "when does the visa expire?"
+  },
+  {
+    "thai": "เราจะเจอกันอีกเมื่อไหร่ครับ",
+    "eng": "when will we meet again?"
+  },
+  {
+    "thai": "เผ็ดหรือเปล่าครับ",
+    "eng": "is it spicy?"
+  },
+  {
+    "thai": "ฝนจะตกหรือเปล่าครับ",
+    "eng": "will it rain?"
+  },
+  {
+    "thai": "คุณว่างหรือเปล่าครับ",
+    "eng": "are you free?"
+  },
+  {
+    "thai": "ยากหรือเปล่าครับ",
+    "eng": "is it difficult?"
+  },
+  {
+    "thai": "เมืองที่ใหญ่ที่สุดในโลก",
+    "eng": "the biggest city in the world"
+  },
+  {
+    "thai": "แม่น้ำที่ยาวที่สุดในโลก",
+    "eng": "the longest river in the world"
+  },
+  {
+    "thai": "รถที่แพงที่สุด",
+    "eng": "the most expensive car"
+  },
+  {
+    "thai": "รถคันที่ผมเห็นเมื่อวาน",
+    "eng": "the car I saw yesterday"
+  },
+  {
+    "thai": "บ้านที่ผมเช่า",
+    "eng": "the house I rent"
+  },
+  {
+    "thai": "อาหารไทยอร่อยที่สุดในโลก",
+    "eng": "Thai food is the most delicious in the world"
+  },
+  {
+    "thai": "คนไทยเป็นมิตรที่สุดในโลก",
+    "eng": "Thai people are the friendliest in the world"
+  },
+  {
+    "thai": "คนไทยเป็นมิตรมากที่สุดในโลก",
+    "eng": "Thai people are the most friendly in the world"
+  },
+  {
+    "thai": "เขาเป็นหมอ",
+    "eng": "he is a doctor"
+  },
+  {
+    "thai": "ผมเป็นนักเรียน",
+    "eng": "I am a student"
+  },
+  {
+    "thai": "เขาเป็นชาวต่างชาติ",
+    "eng": "he is a foreigner"
+  },
+  {
+    "thai": "เธอเป็นแฟนของผม",
+    "eng": "she is my girlfriend"
+  },
+  {
+    "thai": "เป็นเรื่องจริง",
+    "eng": "it's a true story"
+  },
+  {
+    "thai": "ผมหิว",
+    "eng": "I'm hungry"
+  },
+  {
+    "thai": "นี่คือบ้านของผม",
+    "eng": "this is my house"
+  },
+  {
+    "thai": "นั่นคืออะไร",
+    "eng": "what is that?"
+  },
+  {
+    "thai": "ปัญหาคืออะไร",
+    "eng": "what is the problem?"
+  },
+  {
+    "thai": "เป้าหมายของผมคือเรียนภาษาไทย",
+    "eng": "my goal is to learn Thai"
+  },
+  {
+    "thai": "แอร์มีกลิ่นอับครับ",
+    "eng": "the AC smells musty"
+  },
+  {
+    "thai": "เหนื่อยไหม",
+    "eng": "are you tired?"
+  },
+  {
+    "thai": "เหนื่อยมั้ย",
+    "eng": "are you tired? (colloquial)"
+  },
+  {
+    "thai": "เมืองที่ใหญ่ที่สุดในประเทศไทย",
+    "eng": "the biggest city in Thailand"
+  },
+  {
+    "thai": "สุรินทร์สวยกว่ากรุงเทพฯ",
+    "eng": "Surin is more beautiful than Bangkok"
+  },
+  {
+    "thai": "กรุงเทพฯ ใหญ่กว่าสุรินทร์",
+    "eng": "Bangkok is bigger than Surin"
+  },
+  {
+    "thai": "ฝ้ายพูดภาษาอังกฤษดีกว่าผม",
+    "eng": "Fai speaks English better than me"
+  },
+  {
+    "thai": "วันนี้ร้อนกว่าเมื่อวาน",
+    "eng": "today is hotter than yesterday"
+  },
+  {
+    "thai": "ฝ้ายสูงกว่าผม",
+    "eng": "Fai is taller than me"
+  },
+  {
+    "thai": "เธอพูดเร็วกว่าผมมาก",
+    "eng": "she speaks much faster than me"
+  },
+  {
+    "thai": "ตั๋วเครื่องบินแพงกว่าตั๋วรถไฟ",
+    "eng": "plane tickets are more expensive than train tickets"
+  },
+  {
+    "thai": "กรุงเทพฯ อยู่ไกลกว่าสุรินทร์",
+    "eng": "Bangkok is farther than Surin"
+  },
+  {
+    "thai": "ผมพูดภาษาไทยได้ดีขึ้น",
+    "eng": "I speak Thai better now"
+  },
+  {
+    "thai": "อากาศร้อนขึ้น",
+    "eng": "the weather is getting hotter"
+  },
+  {
+    "thai": "ฝนตกหนักขึ้น",
+    "eng": "the rain is getting heavier"
+  },
+  {
+    "thai": "กรุงเทพฯ ฝนตกบ่อย",
+    "eng": "it rains often in Bangkok"
+  },
+  {
+    "thai": "รู้แล้ว",
+    "eng": "I know already"
+  },
+  {
+    "thai": "ทางออกอยู่ที่ไหน",
+    "eng": "where is the exit?"
+  },
+  {
+    "thai": "กี่บาท",
+    "eng": "how many baht?"
+  },
+  {
+    "thai": "อันนี้ราคาเท่าไหร่",
+    "eng": "how much does this cost?"
+  },
+  {
+    "thai": "อันนี้คืออะไร",
+    "eng": "what is this?"
+  },
+  {
+    "thai": "วันนี้เป็นวันจันทร์",
+    "eng": "today is Monday"
+  }
+]

@@ -60,6 +60,7 @@ kbd { font: inherit; font-size: .7em; opacity: .6; border: 1px solid currentColo
 .prompt-name .info-name { font-size: 2.4rem; }
 .pitch { width: 40px; height: 24px; margin-right: 10px; vertical-align: middle; flex: none; }
 .tone-word { font-size: 4rem; line-height: 1.4; }
+.tone-word.long { font-size: 2.2rem; }
 .tile.word { width: auto; padding: 0 16px 14px; font-size: 1.8rem; }
 
 .verdict { margin-top: 14px; padding: 10px 14px; border-radius: 10px; font-weight: 600; }

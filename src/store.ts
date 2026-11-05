@@ -1,11 +1,10 @@
-import type { Letter } from './data'
 import { lang } from './lang'
 
 type Item = { ch: string }
 
-export type Mode = 'class' | 'names' | 'speak' | 'tones' | 'vowels' | 'split' | 'drill'
+export type Mode = 'class' | 'names' | 'speak' | 'tones' | 'vowels' | 'split' | 'vocab' | 'vocabrev' | 'sent' | 'sentrev' | 'drill' | 'learn'
 /** Round-based modes shown as cards on the home screen; 'drill' has its own button. */
-export const MODES: Mode[] = lang === 'km' ? ['split'] : ['class', 'names', 'speak', 'tones', 'vowels', 'split']
+export const MODES: Mode[] = lang === 'km' ? ['split'] : ['class', 'names', 'speak', 'tones', 'vowels', 'split', 'learn', 'vocab', 'vocabrev', 'sent', 'sentrev']
 export const BOXES = 5
 
 type Progress = Record<Mode, Record<string, number>> // letter -> box (1..5)
@@ -18,7 +17,7 @@ const load = (): Progress => {
   } catch { /* fresh */ }
   return empty()
 }
-const empty = (): Progress => ({ class: {}, names: {}, speak: {}, tones: {}, vowels: {}, split: {}, drill: {} })
+const empty = (): Progress => ({ class: {}, names: {}, speak: {}, tones: {}, vowels: {}, split: {}, vocab: {}, vocabrev: {}, sent: {}, sentrev: {}, drill: {}, learn: {} })
 
 let progress = load()
 
@@ -35,6 +34,7 @@ export const mastered = (mode: Mode) => Object.values(progress[mode]).filter((b)
 
 export function reset() {
   progress = empty()
+  lastSeen = {}
   try { localStorage.removeItem(KEY) } catch { /* no storage */ }
 }
 
@@ -51,23 +51,37 @@ export function drawRound<T extends Item>(mode: Mode, pool: T[]): T[] {
   return out
 }
 
-/** Letters already introduced in the drill. */
-export const inPlay = (pool: Letter[]) => pool.filter((l) => l.ch in progress.drill)
+/** Items already introduced in a progressive mode ('drill' = letters, 'learn' = vocabulary). */
+export const inPlay = <T extends Item>(pool: T[], mode: Mode = 'drill') => pool.filter((l) => l.ch in progress[mode])
+
+/** Progressive modes: turn each item was last shown, in memory only (a reload starts everyone at turn 0). */
+let lastSeen: Partial<Record<Mode, Record<string, number>>> = {}
+let turn = 0
+/** Cards to wait before an item is due again: 2, 6, 18, 54, 162 by box. */
+export const gap = (box: number) => 2 * 3 ** (box - 1)
 
 /**
- * Drill: letters enter one at a time (3 to start, the next one once every letter in play
- * is at box 3+); among letters in play, weak ones come up more often; no immediate repeats.
+ * Progressive drill: items enter one at a time, in pool order (`start` to begin, the next one
+ * once fewer than `maxWeak` items in play are below box 3); otherwise the most overdue item in
+ * play comes up, so known ones wait longer each time; no immediate repeats.
  */
-export function drillNext(pool: Letter[], prev?: Letter): Letter {
-  const active = inPlay(pool)
-  const fresh = pool.find((l) => !(l.ch in progress.drill))
-  if (fresh && (active.length < 3 || active.every((l) => getBox('drill', l.ch) >= 3))) {
-    progress.drill[fresh.ch] = 1
+export function drillNext<T extends Item>(pool: T[], prev?: T, { mode = 'drill' as Mode, start = 3, maxWeak = 1 } = {}): T {
+  const seen = (lastSeen[mode] ??= {})
+  turn++
+  const active = inPlay(pool, mode)
+  const fresh = pool.find((l) => !(l.ch in progress[mode]))
+  let next: T
+  if (fresh && (active.length < start || active.filter((l) => getBox(mode, l.ch) < 3).length < maxWeak)) {
+    progress[mode][fresh.ch] = 1
     save()
-    return fresh
+    next = fresh
+  } else {
+    const candidates = active.length > 1 ? active.filter((l) => l !== prev) : active
+    const overdue = (l: T) => turn - (seen[l.ch] ?? 0) - gap(getBox(mode, l.ch)) + Math.random() // random breaks ties
+    next = candidates.reduce((a, b) => (overdue(b) > overdue(a) ? b : a))
   }
-  const candidates = active.length > 1 ? active.filter((l) => l !== prev) : active
-  return drawRound('drill', candidates)[0]
+  seen[next.ch] = turn
+  return next
 }
 
 export const shuffle = <T,>(xs: T[]) => {

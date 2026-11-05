@@ -1,0 +1,4862 @@
+[
+  {
+    "thai": "ได้",
+    "eng": "can; to get; okay",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "หัว",
+    "eng": "head",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หิน",
+    "eng": "stone",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "มา",
+    "eng": "to come",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ออก",
+    "eng": "to go out; to exit",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ยา",
+    "eng": "medicine",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไทย",
+    "eng": "Thai",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "คนไทย",
+    "eng": "Thai person",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "คน",
+    "eng": "person",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "รถ",
+    "eng": "car; vehicle",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "รัก",
+    "eng": "to love",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มะละกอ",
+    "eng": "papaya",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ครับ",
+    "eng": "polite particle (male)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "คุณ",
+    "eng": "you",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ประกาศ",
+    "eng": "announcement",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ประชาสัมพันธ์",
+    "eng": "public relations",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ประชา",
+    "eng": "people; public",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สัมพันธ์",
+    "eng": "relation",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "พร้อม",
+    "eng": "ready",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ตลอด",
+    "eng": "throughout; all the time",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ทางออก",
+    "eng": "exit",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ทาง",
+    "eng": "way; path",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไป",
+    "eng": "to go",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ไก่",
+    "eng": "chicken",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "โดนัท",
+    "eng": "donut",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ไดโนเสาร์",
+    "eng": "dinosaur",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สตรอว์เบอร์รี",
+    "eng": "strawberry",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "โยเกิร์ต",
+    "eng": "yogurt",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ดิสโก้",
+    "eng": "disco",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "แอปเปิล",
+    "eng": "apple",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ดรามา",
+    "eng": "drama",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "โอเค",
+    "eng": "OK",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เรดาร์",
+    "eng": "radar",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "บาร์",
+    "eng": "bar",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ลาว",
+    "eng": "Laos",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เกาะ",
+    "eng": "island",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เวลา",
+    "eng": "time",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ตลอดเวลา",
+    "eng": "all the time",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ใบขับขี่",
+    "eng": "driver's license",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ขับ",
+    "eng": "to drive",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ขี่มอเตอร์ไซค์",
+    "eng": "to ride a motorcycle",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "วัด",
+    "eng": "temple",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหาร",
+    "eng": "food",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้าน",
+    "eng": "shop",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้านอาหาร",
+    "eng": "restaurant",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้านอาหารไทย",
+    "eng": "Thai restaurant",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "จิ๋ม",
+    "eng": "vagina (vulgar slang)",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "น้ำจิ้ม",
+    "eng": "dipping sauce",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ยีนส์",
+    "eng": "jeans",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ยูโร",
+    "eng": "euro",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "โยคะ",
+    "eng": "yoga",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ทำ",
+    "eng": "to do; to make",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "อะไร",
+    "eng": "what",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "คือ",
+    "eng": "to be (equals)",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ดื่ม",
+    "eng": "to drink",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ดำ",
+    "eng": "black",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สีดำ",
+    "eng": "black (color)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เครื่องดื่ม",
+    "eng": "beverage",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ตรง",
+    "eng": "straight",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เครื่องบิน",
+    "eng": "airplane",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "บิน",
+    "eng": "to fly",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สนามบิน",
+    "eng": "airport",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สนาม",
+    "eng": "field",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สนามกีฬา",
+    "eng": "stadium",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "กีฬา",
+    "eng": "sport",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เล่นกีฬา",
+    "eng": "to play sports",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เล่น",
+    "eng": "to play",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เล่นเกม",
+    "eng": "to play games",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เล่นโทรศัพท์",
+    "eng": "to use one's phone",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "โทร",
+    "eng": "to call (phone)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "โทรศัพท์",
+    "eng": "telephone",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "กะทิ",
+    "eng": "coconut milk",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สะพาน",
+    "eng": "bridge",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สแปม",
+    "eng": "spam",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ถนน",
+    "eng": "road",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เด็ก",
+    "eng": "child",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ใกล้",
+    "eng": "near",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "สตูดิโอ",
+    "eng": "studio",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "คลิป",
+    "eng": "clip",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ซิลิคอน",
+    "eng": "silicone",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "คุกกี้",
+    "eng": "cookie",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "สแตมป์",
+    "eng": "stamp",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สแน็ค",
+    "eng": "snack",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สระ",
+    "eng": "vowel; pool",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "สมุด",
+    "eng": "notebook",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ฝรั่ง",
+    "eng": "Westerner; guava",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "อร่อย",
+    "eng": "delicious",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ขโมย",
+    "eng": "to steal; thief",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ฝน",
+    "eng": "rain",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ฝาก",
+    "eng": "to deposit; to leave with someone",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ฟักเขียว",
+    "eng": "winter melon",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ฟัน",
+    "eng": "tooth",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ทำฟัน",
+    "eng": "dental work",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฝัน",
+    "eng": "to dream",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฝึก",
+    "eng": "to practice",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฝุ่น",
+    "eng": "dust",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฝ่าฟัน",
+    "eng": "to overcome",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ไฟ",
+    "eng": "fire; light",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "รถไฟ",
+    "eng": "train",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "รถตู้",
+    "eng": "van",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "รถเมล์",
+    "eng": "city bus",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "รถบัส",
+    "eng": "bus",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไฟฟ้า",
+    "eng": "electricity",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ขอ",
+    "eng": "to ask for",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ขาย",
+    "eng": "to sell",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ผม",
+    "eng": "I (male); hair",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เกิด",
+    "eng": "to be born",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เรียน",
+    "eng": "to study",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เขียน",
+    "eng": "to write",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "รัฐ",
+    "eng": "state",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ชื่อจริง",
+    "eng": "first name",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "บัตร",
+    "eng": "card",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "นามสกุล",
+    "eng": "surname",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เดือน",
+    "eng": "month",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ผู้หญิง",
+    "eng": "woman",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "สัญญา",
+    "eng": "to promise; contract",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ใหญ่",
+    "eng": "big",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "สัญชาติ",
+    "eng": "nationality",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ญี่ปุ่น",
+    "eng": "Japan",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "รวย",
+    "eng": "rich",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "รวยๆ",
+    "eng": "very rich",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "สุขสันต์วันเกิด",
+    "eng": "happy birthday",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ภาษา",
+    "eng": "language",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ภาษาไทย",
+    "eng": "Thai language",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "พูดภาษาไทย",
+    "eng": "to speak Thai",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "พูดภาษาไทยเป็น",
+    "eng": "can speak Thai (know how)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "พูดภาษาไทยได้",
+    "eng": "can speak Thai",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "บริษัท",
+    "eng": "company",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "ศึกษา",
+    "eng": "to study; education",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "นักเรียน",
+    "eng": "student (school)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "นักศึกษา",
+    "eng": "university student",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ศีรษะ",
+    "eng": "head (formal)",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "นักร้อง",
+    "eng": "singer",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "นักบิน",
+    "eng": "pilot",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "อักษร",
+    "eng": "letter; script",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "มนุษย์",
+    "eng": "human",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "วิว",
+    "eng": "view",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ไวน์",
+    "eng": "wine",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "วานิลา",
+    "eng": "vanilla",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "วอลเลย์บอล",
+    "eng": "volleyball",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ศาลา",
+    "eng": "pavilion",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ศัตรู",
+    "eng": "enemy",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ศุกร์",
+    "eng": "Friday",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "ศิลปะ",
+    "eng": "art",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ศาสนา",
+    "eng": "religion",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "สไตล์",
+    "eng": "style",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "สกี",
+    "eng": "ski",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "สเปรย์",
+    "eng": "spray",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สแกน",
+    "eng": "scan",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สไลด์",
+    "eng": "slide",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สวิตช์",
+    "eng": "switch",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ของหวาน",
+    "eng": "dessert",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ฝูง",
+    "eng": "flock; herd",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ผล",
+    "eng": "result; fruit",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ผลไม้",
+    "eng": "fruit",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "น้ำผลไม้",
+    "eng": "fruit juice",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "น้ำ",
+    "eng": "water",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เผ็ด",
+    "eng": "spicy",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ผัด",
+    "eng": "to stir-fry",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ผัก",
+    "eng": "vegetable",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตัดผม",
+    "eng": "to get a haircut",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ช่างตัดผม",
+    "eng": "barber",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้านตัดผม",
+    "eng": "barbershop",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ผึ้ง",
+    "eng": "bee",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ผิด",
+    "eng": "wrong",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ความ",
+    "eng": "-ness (abstract noun prefix)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ความผิด",
+    "eng": "fault; guilt",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ความสุข",
+    "eng": "happiness",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ความงาม",
+    "eng": "beauty",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ความเร็ว",
+    "eng": "speed",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ลด",
+    "eng": "to reduce",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เร็ว",
+    "eng": "fast",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เขียว",
+    "eng": "green",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไข่",
+    "eng": "egg",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ขวา",
+    "eng": "right (direction)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไข่ดาว",
+    "eng": "fried egg",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ขาว",
+    "eng": "white",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ขายบ้าน",
+    "eng": "house for sale",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ขวด",
+    "eng": "bottle",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ทีม",
+    "eng": "team",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "แท็กซี่",
+    "eng": "taxi",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เทนนิส",
+    "eng": "tennis",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ทะเล",
+    "eng": "sea",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารทะเล",
+    "eng": "seafood",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถ้า",
+    "eng": "if",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ถาม",
+    "eng": "to ask",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถุง",
+    "eng": "bag",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถ้วย",
+    "eng": "cup",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ถูก",
+    "eng": "cheap; correct",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ราคาถูก",
+    "eng": "cheap price",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถูกต้อง",
+    "eng": "correct",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "โดรน",
+    "eng": "drone",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ดอลลาร์",
+    "eng": "dollar",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ช้าง",
+    "eng": "elephant",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ช่างเครื่อง",
+    "eng": "mechanic",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "โฆษณา",
+    "eng": "advertisement",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "อยาก",
+    "eng": "to want",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ยาก",
+    "eng": "difficult",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หมา",
+    "eng": "dog",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ม้า",
+    "eng": "horse",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "รุ่งเรือง",
+    "eng": "prosperous",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "มวยไทย",
+    "eng": "Muay Thai",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สด",
+    "eng": "fresh",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ซาลาเปา",
+    "eng": "steamed bun",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "มั้ย",
+    "eng": "question particle (colloquial)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "จะ",
+    "eng": "will",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "จะทำงาน",
+    "eng": "will work",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "วัน",
+    "eng": "day",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "วันนี้",
+    "eng": "today",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "วันจันทร์",
+    "eng": "Monday",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "ทุกวัน",
+    "eng": "every day",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไปซื้อของทุกวัน",
+    "eng": "to go shopping every day",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ของ",
+    "eng": "thing; of",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ซื้อ",
+    "eng": "to buy",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ทุกๆวัน",
+    "eng": "every single day",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สิบ",
+    "eng": "ten",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "กิน",
+    "eng": "to eat",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "กินน้ำ",
+    "eng": "to drink water",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เสียหน้า",
+    "eng": "to lose face",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "มี ... มั้ย",
+    "eng": "is there ...? / do you have ...?",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ไม่มีเวลา",
+    "eng": "no time",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตึก",
+    "eng": "building",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "นึก",
+    "eng": "to think of; to recall",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ดึง",
+    "eng": "to pull",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "มือ",
+    "eng": "hand",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มือถือ",
+    "eng": "mobile phone",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถือ",
+    "eng": "to hold",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ยุ่ง",
+    "eng": "busy",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หยุด",
+    "eng": "to stop",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ขอบคุณ",
+    "eng": "thank you",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ขอบ",
+    "eng": "edge",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "มาก ๆ",
+    "eng": "very much",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มาก",
+    "eng": "very; a lot",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "พูด",
+    "eng": "to speak",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เล็ก",
+    "eng": "small",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เห็น",
+    "eng": "to see",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เลข",
+    "eng": "number",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "โต๊ะ",
+    "eng": "table",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "โต",
+    "eng": "to grow up; big",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "โฮเต็ล",
+    "eng": "hotel",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "เพราะ",
+    "eng": "because",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เฉพาะ",
+    "eng": "specifically",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ชอบ",
+    "eng": "to like",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "บอก",
+    "eng": "to tell",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เขาบอกว่า",
+    "eng": "he/she said that",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ผมคิดว่า",
+    "eng": "I think that",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เยอะ",
+    "eng": "a lot",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เลอะ",
+    "eng": "messy; stained",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "เปรอะ",
+    "eng": "smeared",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เยอะ ๆ",
+    "eng": "lots",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เธอ",
+    "eng": "she; you",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เดิน",
+    "eng": "to walk",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "วันเกิด",
+    "eng": "birthday",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เปี๊ยะ",
+    "eng": "Chinese pastry (bia)",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เหี้ย",
+    "eng": "monitor lizard; vulgar curse",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เสีย",
+    "eng": "broken; to lose",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เมีย",
+    "eng": "wife (informal)",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เบียร์",
+    "eng": "beer",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เสือ",
+    "eng": "tiger",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เรือ",
+    "eng": "boat",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เมือง",
+    "eng": "city",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เมืองไทย",
+    "eng": "Thailand",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ประเทศ",
+    "eng": "country",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ประเทศไทย",
+    "eng": "Thailand",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ตัว",
+    "eng": "body; classifier for animals and clothes",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "สวน",
+    "eng": "garden; park",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สวย",
+    "eng": "beautiful",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ในหลวง",
+    "eng": "the King",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ใหม่",
+    "eng": "new",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ใจ",
+    "eng": "heart; mind",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ให้",
+    "eng": "give; for",
+    "tier": 1,
+    "complexity": 3
+  },
+  {
+    "thai": "ชาย",
+    "eng": "man; male",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สบาย",
+    "eng": "comfortable; well",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ข้าว",
+    "eng": "rice",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ยาว",
+    "eng": "long",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เคย",
+    "eng": "used to; ever",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เลย",
+    "eng": "at all; so (emphasis)",
+    "tier": 1,
+    "complexity": 3
+  },
+  {
+    "thai": "เฉย",
+    "eng": "indifferent",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เฉยๆ",
+    "eng": "just so-so; nothing special",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "นิดหน่อย",
+    "eng": "a little",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "บ่อย",
+    "eng": "often",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ช่วย",
+    "eng": "to help",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เหนื่อย",
+    "eng": "tired",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เรื่อย",
+    "eng": "continuously",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เที่ยว",
+    "eng": "to travel; to go out",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เดียว",
+    "eng": "single; only",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "คนเดียว",
+    "eng": "alone",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กา",
+    "eng": "crow; kettle",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ตา",
+    "eng": "eye; maternal grandfather",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "นา",
+    "eng": "rice field",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ขา",
+    "eng": "leg",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "พา",
+    "eng": "to take (someone)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หา",
+    "eng": "to look for",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ลา",
+    "eng": "to say goodbye; donkey",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ชา",
+    "eng": "tea",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ปา",
+    "eng": "to throw",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "คา",
+    "eng": "stuck",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "งาน",
+    "eng": "work; event",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ทาน",
+    "eng": "to eat (polite)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "นาน",
+    "eng": "long time",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "จาน",
+    "eng": "plate",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ดาว",
+    "eng": "star",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สาว",
+    "eng": "young woman",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "กาว",
+    "eng": "glue",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "กิ่ง",
+    "eng": "branch",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ยิน",
+    "eng": "to hear",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ดิน",
+    "eng": "soil",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฟิน",
+    "eng": "awesome (slang)",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "กัน",
+    "eng": "together; each other",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "พัน",
+    "eng": "thousand",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มัน",
+    "eng": "it",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ดอน",
+    "eng": "mound; upland",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "นอน",
+    "eng": "to sleep",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "กอด",
+    "eng": "to hug",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "จอด",
+    "eng": "to park (a car)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตอด",
+    "eng": "to nibble",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "บอด",
+    "eng": "blind",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "คอม",
+    "eng": "computer",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "จอม",
+    "eng": "chief; summit",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "เกม",
+    "eng": "game",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เวร",
+    "eng": "duty shift; karma (curse)",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เครียด",
+    "eng": "stressed",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กรุงเทพฯ",
+    "eng": "Bangkok",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "กระเป๋า",
+    "eng": "bag",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "กระต่าย",
+    "eng": "rabbit",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กระเป๋าใบนี้",
+    "eng": "this bag",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "รถคันนี้",
+    "eng": "this car",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "หนังสือเล่มนี้",
+    "eng": "this book",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "ปากกาด้ามนี้",
+    "eng": "this pen",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ไกล",
+    "eng": "far",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กล้วย",
+    "eng": "banana",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "กลัว",
+    "eng": "afraid",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กลม",
+    "eng": "round",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ครู",
+    "eng": "teacher",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ครึ่ง",
+    "eng": "half",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ลูกครึ่ง",
+    "eng": "mixed-race person",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "เครื่อง",
+    "eng": "machine",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "คิด",
+    "eng": "to think",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ความคิด",
+    "eng": "idea; thought",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ความลับ",
+    "eng": "secret",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ความสามารถ",
+    "eng": "ability",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "สามารถ",
+    "eng": "can; to be able to",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "น่ารัก",
+    "eng": "cute",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "น่ากลัว",
+    "eng": "scary",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สนใจ",
+    "eng": "to be interested",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "น่าสนใจ",
+    "eng": "interesting",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "น่ากิน",
+    "eng": "looks tasty",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เบื่อ",
+    "eng": "bored",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "น่าเบื่อ",
+    "eng": "boring",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แปลก",
+    "eng": "strange",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "น่าแปลก",
+    "eng": "surprising",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "คนแปลกหน้า",
+    "eng": "stranger",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "หน้า",
+    "eng": "face; front; page",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ควาย",
+    "eng": "buffalo",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ตรงไป",
+    "eng": "to go straight",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตรงข้าม",
+    "eng": "opposite",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "คลอง",
+    "eng": "canal",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ตรวจ",
+    "eng": "to check; to inspect",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ปลา",
+    "eng": "fish",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ปลุก",
+    "eng": "to wake (someone) up",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ปลูก",
+    "eng": "to plant",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ประมาณ",
+    "eng": "about; approximately",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "มอง",
+    "eng": "to look",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฟัง",
+    "eng": "to listen",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ลืม",
+    "eng": "to forget",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "จำ",
+    "eng": "to remember",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "รอ",
+    "eng": "to wait",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เจอ",
+    "eng": "to meet; to find",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "รวม",
+    "eng": "to combine; total",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ดัน",
+    "eng": "to push",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "โยน",
+    "eng": "to throw",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "วาง",
+    "eng": "to put; to place",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เท",
+    "eng": "to pour",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "จม",
+    "eng": "to sink",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ลอย",
+    "eng": "to float",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ชวน",
+    "eng": "to invite",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ลอง",
+    "eng": "to try",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เติม",
+    "eng": "to fill up; to add",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ชง",
+    "eng": "to brew",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ยอม",
+    "eng": "to give in; to accept",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "เกรง",
+    "eng": "to be in awe; to fear",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ตาม",
+    "eng": "to follow",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เอว",
+    "eng": "waist",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "คอ",
+    "eng": "neck",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เงา",
+    "eng": "shadow",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ทอง",
+    "eng": "gold",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เงิน",
+    "eng": "money; silver",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ชาม",
+    "eng": "bowl",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "แกง",
+    "eng": "curry",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ลม",
+    "eng": "wind",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เบอร์",
+    "eng": "number",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "กางเกง",
+    "eng": "trousers",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แตงโม",
+    "eng": "watermelon",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "กาแฟ",
+    "eng": "coffee",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ดนตรี",
+    "eng": "music",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ดารา",
+    "eng": "celebrity",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ธรรมดา",
+    "eng": "ordinary",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "บาง",
+    "eng": "thin; some",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "เบา",
+    "eng": "light (weight); quiet",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "แพง",
+    "eng": "expensive",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ซน",
+    "eng": "naughty",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "เย็น",
+    "eng": "cool; evening",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เค็ม",
+    "eng": "salty",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "จน",
+    "eng": "poor",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "งาม",
+    "eng": "beautiful",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "เลว",
+    "eng": "bad (person)",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "เรา",
+    "eng": "we",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ใคร",
+    "eng": "who",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ลาย",
+    "eng": "pattern",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "พรม",
+    "eng": "carpet",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ยาง",
+    "eng": "rubber; tire",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ราง",
+    "eng": "rail",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "เพดาน",
+    "eng": "ceiling",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "โรงเรียน",
+    "eng": "school",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กรอง",
+    "eng": "to filter",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "คลาย",
+    "eng": "to relax; to loosen",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "กอง",
+    "eng": "pile",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "กุม",
+    "eng": "to hold; to grasp",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ตรอง",
+    "eng": "to ponder",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "คลอ",
+    "eng": "(tears) welling; to accompany",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "พูน",
+    "eng": "to heap up",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "รวน",
+    "eng": "erratic",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ตรม",
+    "eng": "to grieve",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ตอม",
+    "eng": "to swarm (flies)",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "แกงเขียว",
+    "eng": "green curry",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "หาม",
+    "eng": "to carry (two people)",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "หวน",
+    "eng": "to return; to recur",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "หอน",
+    "eng": "to howl",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "หาว",
+    "eng": "to yawn",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "หิว",
+    "eng": "hungry",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หุง",
+    "eng": "to cook (rice)",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "หมุน",
+    "eng": "to spin",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เหลียว",
+    "eng": "to glance back",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เหลา",
+    "eng": "to sharpen",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "หนี",
+    "eng": "to flee",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ถอย",
+    "eng": "to retreat; to back up",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เฉา",
+    "eng": "to wither",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "แฝง",
+    "eng": "hidden; latent",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สวม",
+    "eng": "to wear",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "สอง",
+    "eng": "two",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "สาม",
+    "eng": "three",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ศูนย์",
+    "eng": "zero; center",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "โหล",
+    "eng": "dozen; jar",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "แสน",
+    "eng": "hundred thousand",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หมู",
+    "eng": "pork; pig",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หมี",
+    "eng": "bear",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "หนู",
+    "eng": "mouse; rat",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "หอย",
+    "eng": "shellfish",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "แขน",
+    "eng": "arm",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ขน",
+    "eng": "body hair; fur",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ขวัญ",
+    "eng": "morale; spirit",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "หาง",
+    "eng": "tail",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "หลัง",
+    "eng": "back; after",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ธรรมชาติ",
+    "eng": "nature",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "วัฒนธรรม",
+    "eng": "culture",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "กรรไกร",
+    "eng": "scissors",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "กิจกรรม",
+    "eng": "activity",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "กรรม",
+    "eng": "karma",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "พรรค",
+    "eng": "(political) party",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "วรรค",
+    "eng": "space; paragraph",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ภรรยา",
+    "eng": "wife (formal)",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "รับ",
+    "eng": "to receive",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ใช้",
+    "eng": "to use",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เว้น",
+    "eng": "except; to skip",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ยิ้ม",
+    "eng": "to smile",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้อง",
+    "eng": "to sing; to cry out",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ไว้",
+    "eng": "to keep",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "ย้าย",
+    "eng": "to move",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ล้าง",
+    "eng": "to wash",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "นับ",
+    "eng": "to count",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เช็ด",
+    "eng": "to wipe",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ทิ้ง",
+    "eng": "to throw away",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แทะ",
+    "eng": "to gnaw",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "พับ",
+    "eng": "to fold",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ล้างรถ",
+    "eng": "car wash",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "แห่ง",
+    "eng": "classifier for places; of (formal)",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ขายดี",
+    "eng": "sells well",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เฉาก๊วย",
+    "eng": "grass jelly",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "แห้ง",
+    "eng": "dry",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เช้า",
+    "eng": "morning",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ข้าวผัดสับปะรด",
+    "eng": "pineapple fried rice",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ปังกระเทียม",
+    "eng": "garlic bread",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ซุปมะเขือเทศ",
+    "eng": "tomato soup",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ห้าม",
+    "eng": "to forbid; forbidden",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ห้ามจอดรถ",
+    "eng": "no parking",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ห้ามสูบบุหรี่",
+    "eng": "no smoking",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กุ้งชุบแป้งทอด",
+    "eng": "battered fried shrimp",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "จาก",
+    "eng": "from",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "มานี่",
+    "eng": "come here",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ประเทศจีน",
+    "eng": "China",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "จีน",
+    "eng": "Chinese; China",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตอนนี้",
+    "eng": "now",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "กับ",
+    "eng": "with",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "แฟน",
+    "eng": "girlfriend; boyfriend",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาศัย",
+    "eng": "to reside",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "อยู่",
+    "eng": "to be (located); to live",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "กับใคร",
+    "eng": "with whom?",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "คอนโด",
+    "eng": "condo",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สถานี",
+    "eng": "station",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ฟ้า",
+    "eng": "sky",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "รถของผม",
+    "eng": "my car",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "พวกเรา",
+    "eng": "we (group)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ต่อไป",
+    "eng": "next",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อยู่ที่",
+    "eng": "is at; lives at",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ติดต่อ",
+    "eng": "to contact",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กรุงเทพมหานคร",
+    "eng": "Bangkok (full name)",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "กรุงเทพ",
+    "eng": "Bangkok",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "มหา",
+    "eng": "great",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "นคร",
+    "eng": "city",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ทุกเช้า",
+    "eng": "every morning",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ทุก",
+    "eng": "every",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ทุกเย็น",
+    "eng": "every evening",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารเย็น",
+    "eng": "dinner",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารเช้า",
+    "eng": "breakfast",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารกลางวัน",
+    "eng": "lunch",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารเที่ยง",
+    "eng": "lunch (noon meal)",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารวีแกน",
+    "eng": "vegan food",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารเจ",
+    "eng": "Chinese vegan (jay) food",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "กาแฟเย็น",
+    "eng": "iced coffee",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กาแฟร้อน",
+    "eng": "hot coffee",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ตอนเย็น",
+    "eng": "in the evening",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตอนเช้า",
+    "eng": "in the morning",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตอนบ่าย",
+    "eng": "in the afternoon",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตอน",
+    "eng": "time; period",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "กลางวัน",
+    "eng": "daytime",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ทำงาน",
+    "eng": "to work",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ผ่าน",
+    "eng": "through; to pass",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ที่ห้อง",
+    "eng": "in the room",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ทำความสะอาด",
+    "eng": "to clean",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ทำกับข้าว",
+    "eng": "to cook",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ทำผม",
+    "eng": "to do one's hair",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ทำประกัน",
+    "eng": "to get insurance",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ห้อง",
+    "eng": "room",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ห้องครัว",
+    "eng": "kitchen",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ห้องสมุด",
+    "eng": "library",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ห้องน้ำ",
+    "eng": "bathroom",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เปล่า",
+    "eng": "no; empty; plain",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "เย็นๆ",
+    "eng": "nice and cold",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "แก้ว",
+    "eng": "glass",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไม่เย็น",
+    "eng": "not cold",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "อาบน้ำ",
+    "eng": "to take a shower",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "น้ำตก",
+    "eng": "waterfall",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ใส่",
+    "eng": "to put in; to wear",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "พลาสติก",
+    "eng": "plastic",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ด้วย",
+    "eng": "also; please (softener)",
+    "tier": 1,
+    "complexity": 3
+  },
+  {
+    "thai": "จะทำอาหาร",
+    "eng": "will cook",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "จะไป",
+    "eng": "will go",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "พรุ่งนี้",
+    "eng": "tomorrow",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เมื่อวาน",
+    "eng": "yesterday",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หาหมอ",
+    "eng": "to see a doctor",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เดี๋ยว",
+    "eng": "in a moment",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ส่ง",
+    "eng": "to send",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ข้อความ",
+    "eng": "message",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ส่งข้อความ",
+    "eng": "to send a message",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สาย",
+    "eng": "late",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "มาสาย",
+    "eng": "to come late",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เรียบร้อย",
+    "eng": "done; neat",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "แล้ว",
+    "eng": "already",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เรียบร้อยแล้ว",
+    "eng": "all done",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "รอบที่แล้ว",
+    "eng": "last time",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ไปเที่ยว",
+    "eng": "to go on a trip",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เมื่อคืน",
+    "eng": "last night",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไม่",
+    "eng": "no; not",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ค่อย",
+    "eng": "gradually",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "หลับ",
+    "eng": "to sleep; to fall asleep",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อย",
+    "eng": "not very",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "นอนไม่หลับ",
+    "eng": "can't sleep",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยดีเท่าไร",
+    "eng": "not that good",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "เท่าไร",
+    "eng": "how much",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กี่เปอร์เซ็นต์",
+    "eng": "what percent?",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กำลัง",
+    "eng": "in the middle of (-ing)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "นั่ง",
+    "eng": "to sit",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้านกาแฟ",
+    "eng": "coffee shop",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตุ๊กตาหมี",
+    "eng": "teddy bear",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ความรัก",
+    "eng": "love",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ความปลอดภัย",
+    "eng": "safety",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ความฝัน",
+    "eng": "dream",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ความจำ",
+    "eng": "memory",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ความรู้",
+    "eng": "knowledge",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ความจริง",
+    "eng": "truth",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "การ",
+    "eng": "-ing (action noun prefix)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "การทำงาน",
+    "eng": "working",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "การเรียน",
+    "eng": "studying",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "การเดินทาง",
+    "eng": "travel",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "การกิน",
+    "eng": "eating",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "การนอน",
+    "eng": "sleeping",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "การออกกำลังกาย",
+    "eng": "exercise",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "การประชุม",
+    "eng": "meeting",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "การค้า",
+    "eng": "trade",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "การขับรถ",
+    "eng": "driving",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "การจอง",
+    "eng": "booking",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "กาย",
+    "eng": "body",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ลูกค้า",
+    "eng": "customer",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "การจองโรงแรม",
+    "eng": "hotel booking",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "โรงพยาบาล",
+    "eng": "hospital",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "รถพยาบาล",
+    "eng": "ambulance",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "โรงงาน",
+    "eng": "factory",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "โรงหนัง",
+    "eng": "cinema",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "โรงยิม",
+    "eng": "gym",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "โรงไฟฟ้า",
+    "eng": "power plant",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "โรงรถ",
+    "eng": "garage",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "โรงจำนำ",
+    "eng": "pawnshop",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "น่าดู",
+    "eng": "worth watching",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "น่าเที่ยว",
+    "eng": "worth visiting",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "นัก",
+    "eng": "-er (person who does)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "นักเขียน",
+    "eng": "writer",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "นักแสดง",
+    "eng": "actor",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "นักท่องเที่ยว",
+    "eng": "tourist",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "นักข่าว",
+    "eng": "journalist",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "นักดนตรี",
+    "eng": "musician",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "นักธุรกิจ",
+    "eng": "businessperson",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ผู้ใหญ่",
+    "eng": "adult",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ผู้ชาย",
+    "eng": "man",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ผู้ฟัง",
+    "eng": "listener",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ผู้ชนะ",
+    "eng": "winner",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ผู้โดยสาร",
+    "eng": "passenger",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ผู้สร้าง",
+    "eng": "creator",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "สัตว์",
+    "eng": "animal",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "จริง",
+    "eng": "real; true",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ธุรกิจ",
+    "eng": "business",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ชาว",
+    "eng": "people (of)",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ชาวบ้าน",
+    "eng": "villagers; locals",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ชาวเขา",
+    "eng": "hill tribe people",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ชาวประมง",
+    "eng": "fisherman",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ชาวนา",
+    "eng": "rice farmer",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ชาวเมือง",
+    "eng": "city dwellers",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ชาวพุทธ",
+    "eng": "Buddhists",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ชาวต่างชาติ",
+    "eng": "foreigner",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ต่างชาติ",
+    "eng": "foreign",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "นก",
+    "eng": "bird",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "มด",
+    "eng": "ant",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ไม้",
+    "eng": "wood",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้อย",
+    "eng": "hundred",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "น้อย",
+    "eng": "little; few",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "น้อง",
+    "eng": "younger sibling",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้อน",
+    "eng": "hot",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ช้า",
+    "eng": "slow",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไว",
+    "eng": "fast",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "พัก",
+    "eng": "to rest; to stay",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เช็ค",
+    "eng": "to check",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ดอกไม้",
+    "eng": "flower",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไว้ใจ",
+    "eng": "to trust",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ก๊อก",
+    "eng": "tap; faucet",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ก๊าซ",
+    "eng": "gas",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เค้ก",
+    "eng": "cake",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "โค้ก",
+    "eng": "Coke",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "นัด",
+    "eng": "appointment",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "พัด",
+    "eng": "fan; to blow",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ข้าวผัด",
+    "eng": "fried rice",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "พม่า",
+    "eng": "Myanmar",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "พระ",
+    "eng": "monk; holy",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ศรี",
+    "eng": "glorious (honorific)",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "เรียก",
+    "eng": "to call",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "วินมอเตอร์ไซค์",
+    "eng": "motorbike taxi",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ปาก",
+    "eng": "mouth",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ซอย",
+    "eng": "side street; soi",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แป๊บ",
+    "eng": "a moment",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถึง",
+    "eng": "to arrive; to reach",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "แล้วก็",
+    "eng": "and then",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เป็น",
+    "eng": "to be",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ยังไง",
+    "eng": "how",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "บ้าง",
+    "eng": "some (softener)",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "หรือยัง",
+    "eng": "yet?",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หรือ",
+    "eng": "or",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ยัง",
+    "eng": "still; not yet",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "พริก",
+    "eng": "chili",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ผงชูรส",
+    "eng": "MSG",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "รสชาติ",
+    "eng": "taste",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "รส",
+    "eng": "flavor",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ย่าง",
+    "eng": "to grill",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ไก่ย่าง",
+    "eng": "grilled chicken",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ส้มตำ",
+    "eng": "papaya salad",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ต้มยำ",
+    "eng": "tom yum",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ตำ",
+    "eng": "to pound",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ส้ม",
+    "eng": "orange",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "น้ำปลา",
+    "eng": "fish sauce",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ใช่ไหม",
+    "eng": "right?",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ใช่มั้ย",
+    "eng": "right? (colloquial)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ใช่ไหมครับ",
+    "eng": "right? (polite)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ครับผม",
+    "eng": "yes (polite, male)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หมู่บ้าน",
+    "eng": "village",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "บ้าน",
+    "eng": "house; home",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ค่ะ",
+    "eng": "polite particle (female)",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "อันนี้",
+    "eng": "this one",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "อัน",
+    "eng": "classifier for things; piece",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "อังกฤษ",
+    "eng": "England; English",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "กุญแจรถ",
+    "eng": "car key",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ที่ไหน",
+    "eng": "where",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "กุญแจ",
+    "eng": "key",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไหน",
+    "eng": "which; where",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ป้าย",
+    "eng": "sign",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ทำป้าย",
+    "eng": "to make a sign",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ราคา",
+    "eng": "price",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไหม",
+    "eng": "question particle",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ได้ไหมครับ",
+    "eng": "can I? / is it possible? (polite)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ได้ไหม",
+    "eng": "can I?",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หน่อย",
+    "eng": "a little (softener)",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ถ่ายรูป",
+    "eng": "to take a photo",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ปิด",
+    "eng": "to close; to turn off",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เปิด",
+    "eng": "to open; to turn on",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เท่าไหร่",
+    "eng": "how much",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ละ",
+    "eng": "per",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "คิดว่า",
+    "eng": "to think that",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ข่าว",
+    "eng": "news",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เขา",
+    "eng": "he; she; they; mountain",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เมื่อไหร่",
+    "eng": "when",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "กลับบ้าน",
+    "eng": "to go home",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาหารซื้อกลับบ้าน",
+    "eng": "takeaway food",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "วีซ่า",
+    "eng": "visa",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "จะหมด",
+    "eng": "will run out",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "อายุ",
+    "eng": "age",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อีก",
+    "eng": "again; more",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "หรือเปล่า",
+    "eng": "or not?",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่มี",
+    "eng": "there isn't; don't have",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ไม่มีปัญหา",
+    "eng": "no problem",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มีเวลา",
+    "eng": "to have time",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เงินสด",
+    "eng": "cash",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แม่",
+    "eng": "mother",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แพงที่สุด",
+    "eng": "most expensive",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เป็นคนไทย",
+    "eng": "is Thai",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "มีกลิ่นอับ",
+    "eng": "smells musty",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "แอร์",
+    "eng": "air conditioner",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ในห้องนี้",
+    "eng": "in this room",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฝ้าย",
+    "eng": "Fai (name); cotton",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "และ",
+    "eng": "and",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ชื่อ",
+    "eng": "name",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "มาจาก",
+    "eng": "to come from",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "จัง",
+    "eng": "so; really (colloquial)",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "หวัด",
+    "eng": "a cold",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ภาษาอังกฤษ",
+    "eng": "English (language)",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "สอน",
+    "eng": "to teach",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "คำศัพท์",
+    "eng": "vocabulary",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ง่ายๆ",
+    "eng": "easy; simple",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "การออกเสียง",
+    "eng": "pronunciation",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ขึ้น",
+    "eng": "to go up; more (increase)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "สั่งอาหาร",
+    "eng": "to order food",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เข้า",
+    "eng": "to enter",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "จังหวัด",
+    "eng": "province",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "คำตอบ",
+    "eng": "answer",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "คำถาม",
+    "eng": "question",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เสียง",
+    "eng": "sound; voice; tone",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เสียงดัง",
+    "eng": "loud",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เสียงเบา",
+    "eng": "quiet",
+    "tier": 4,
+    "complexity": 1
+  },
+  {
+    "thai": "ไกลมาก",
+    "eng": "very far",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ง่ายมาก",
+    "eng": "very easy",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "เข้าใจ",
+    "eng": "to understand",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ดีใจ",
+    "eng": "glad",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ใจดี",
+    "eng": "kind",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เมืองใหญ่",
+    "eng": "big city",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "สุด",
+    "eng": "most; end",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ที่สุด",
+    "eng": "the most",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เมืองที่ใหญ่ที่สุด",
+    "eng": "the biggest city",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กว่า",
+    "eng": "than",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "พิมพ์ภาษาไทยเร็วขึ้น",
+    "eng": "to type Thai faster",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "แป้นพิมพ์",
+    "eng": "keyboard",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "แย่",
+    "eng": "bad; terrible",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ง่าย",
+    "eng": "easy",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไม่ค่อยดี",
+    "eng": "not very good",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยหิว",
+    "eng": "not very hungry",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยเข้าใจ",
+    "eng": "don't quite understand",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยดีเท่าไหร่",
+    "eng": "not that good",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยเหนื่อยเท่าไหร่",
+    "eng": "not that tired",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยหิวเท่าไหร่",
+    "eng": "not that hungry",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยยากเท่าไหร่",
+    "eng": "not that difficult",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ค่อยชอบเท่าไหร่",
+    "eng": "don't really like it",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "เก่ง",
+    "eng": "skilled; good at",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ไม่ค่อยเก่งเท่าไหร่",
+    "eng": "not that good at it",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ชัด",
+    "eng": "clear",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "มีปัญหา",
+    "eng": "to have a problem",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มีปัญหาสุขภาพ",
+    "eng": "to have health problems",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "เอา",
+    "eng": "to take; to want",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "พูดภาษาไทยกับคนไทย",
+    "eng": "to speak Thai with Thai people",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "อยากซื้อมอเตอร์ไซค์",
+    "eng": "to want to buy a motorcycle",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "ชอบอาหารไทย",
+    "eng": "to like Thai food",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "กุ้ง",
+    "eng": "shrimp",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "อาศัยอยู่ที่กรุงเทพฯ",
+    "eng": "to live in Bangkok",
+    "tier": 4,
+    "complexity": 2
+  },
+  {
+    "thai": "หนึ่งปีแล้ว",
+    "eng": "one year already",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "พิพิธภัณฑ์",
+    "eng": "museum",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "สัปดาห์",
+    "eng": "week",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "อาทิตย์",
+    "eng": "week; sun; Sunday",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "อาทิตย์ที่แล้ว",
+    "eng": "last week",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เดือนที่แล้ว",
+    "eng": "last month",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ปีที่แล้ว",
+    "eng": "last year",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ครั้ง",
+    "eng": "time (occasion)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ครั้งที่แล้ว",
+    "eng": "last time",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "วันอาทิตย์ที่แล้ว",
+    "eng": "last Sunday",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "วันพฤหัสบดี",
+    "eng": "Thursday",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "วันอาทิตย์",
+    "eng": "Sunday",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "เป็ด",
+    "eng": "duck",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "แปด",
+    "eng": "eight",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หนึ่ง",
+    "eng": "one",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ห้า",
+    "eng": "five",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หก",
+    "eng": "six",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เจ็ด",
+    "eng": "seven",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เก้า",
+    "eng": "nine",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ยี่สิบ",
+    "eng": "twenty",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "สิบเอ็ด",
+    "eng": "eleven",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "สามสิบเอ็ด",
+    "eng": "thirty-one",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หนึ่งร้อย",
+    "eng": "one hundred",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หนึ่งพัน",
+    "eng": "one thousand",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หมื่น",
+    "eng": "ten thousand",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หนึ่งหมื่น",
+    "eng": "ten thousand",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ห้าหมื่น",
+    "eng": "fifty thousand",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "หนึ่งแสน",
+    "eng": "one hundred thousand",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "หนึ่งล้าน",
+    "eng": "one million",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "น้ำเปล่าหนึ่งขวด",
+    "eng": "one bottle of water",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "รถห้าคัน",
+    "eng": "five cars",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "แต่",
+    "eng": "but",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "แต่ว่า",
+    "eng": "but",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หนัก",
+    "eng": "heavy",
+    "tier": 2,
+    "complexity": 2
+  }
+]
