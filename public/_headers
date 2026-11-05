@@ -1,0 +1,3 @@
+# Clips are keyed by their text: cache a day, then serve the cached copy while revalidating.
+/audio/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800

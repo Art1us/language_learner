@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import words from './vocabulary.json'
 import phrases from './phrases.json'
-import { playClip } from './speech'
+import { playClip, preloadClip } from './speech'
 import { useKeys } from './ui'
 
 export type Vocab = { ch: string; meaning: string; tier?: number; complexity?: number }
@@ -26,6 +26,7 @@ export function VocabMode({ word: w, reverse, onDone }: { word: Vocab; reverse: 
   const [answer, setAnswer] = useState<boolean>()
   const play = () => playClip(w.ch, w.ch)
   const thaiShown = !reverse || answer !== undefined
+  useEffect(() => { preloadClip(w.ch) }, [w.ch])
 
   useKeys((k, e) => {
     if (k === 'Space') { e.preventDefault(); if (thaiShown) play() }

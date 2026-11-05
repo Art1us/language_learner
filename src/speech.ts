@@ -18,11 +18,23 @@ export const voicesReady = (): Promise<void> =>
     setTimeout(res, 1500) // some browsers never fire the event
   })
 
-/** Plays the bundled clip for a letter; falls back to TTS. Returns false if nothing could play. */
-/** Play the bundled clip for `key` (a letter or example word), else speak `text`. */
+const clips = new Map<string, HTMLAudioElement>()
+/** Start downloading a clip ahead of time so playClip starts instantly. */
+export function preloadClip(key: string) {
+  let a = clips.get(key)
+  if (!a) {
+    a = new Audio(`${import.meta.env.BASE_URL}audio/${clipFile(key)}`)
+    a.preload = 'auto'
+    clips.set(key, a)
+  }
+  return a
+}
+
+/** Play the bundled clip for `key` (a letter or word), else speak `text`. Returns false if nothing could play. */
 export async function playClip(key: string, text: string): Promise<boolean> {
   try {
-    const a = new Audio(`${import.meta.env.BASE_URL}audio/${clipFile(key)}`)
+    const a = preloadClip(key)
+    a.currentTime = 0
     await a.play()
     return true
   } catch {
