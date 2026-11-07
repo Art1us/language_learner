@@ -510,5 +510,125 @@
   {
     "thai": "วันนี้เป็นวันจันทร์",
     "eng": "today is Monday"
+  },
+  {
+    "thai": "คนนี้เป็นใคร",
+    "eng": "who is this?"
+  },
+  {
+    "thai": "ไปไหน",
+    "eng": "where are you going?"
+  },
+  {
+    "thai": "คนนี้มาจากไหน",
+    "eng": "where is this person from?"
+  },
+  {
+    "thai": "พูดได้สามภาษา",
+    "eng": "(I) can speak three languages"
+  },
+  {
+    "thai": "ตัวผมเองก็ไม่รู้เหมือนกัน",
+    "eng": "I don't know either"
+  },
+  {
+    "thai": "เขาแก้ปัญหาด้วยตัวเขาเอง",
+    "eng": "he/she solved the problem by him/herself"
+  },
+  {
+    "thai": "ผมชอบด้วย",
+    "eng": "I like it too"
+  },
+  {
+    "thai": "ไปเที่ยวกับเพื่อนด้วย",
+    "eng": "(I) went out with friends too"
+  },
+  {
+    "thai": "คุยกับผมด้วย",
+    "eng": "talk to me too"
+  },
+  {
+    "thai": "เขียนด้วยปากกา",
+    "eng": "to write with a pen"
+  },
+  {
+    "thai": "ตัดด้วยกรรไกร",
+    "eng": "to cut with scissors"
+  },
+  {
+    "thai": "ไปสนามบินด้วยแท็กซี่",
+    "eng": "to go to the airport by taxi"
+  },
+  {
+    "thai": "ชอบกาแฟไทยมาก",
+    "eng": "(I) like Thai coffee a lot"
+  },
+  {
+    "thai": "ชอบเหมือนกัน",
+    "eng": "(I) like it too"
+  },
+  {
+    "thai": "เหนื่อยจัง",
+    "eng": "so tired!"
+  },
+  {
+    "thai": "เหนื่อยเหมือนกัน",
+    "eng": "(I'm) tired too"
+  },
+  {
+    "thai": "เสื้อของเราเหมือนกัน",
+    "eng": "our shirts are the same"
+  },
+  {
+    "thai": "ราคาเหมือนกัน",
+    "eng": "same price"
+  },
+  {
+    "thai": "ความคิดของเราเหมือนกัน",
+    "eng": "we think alike"
+  },
+  {
+    "thai": "เขาทำเหมือนกัน",
+    "eng": "he/she does the same"
+  },
+  {
+    "thai": "ถ้าว่าง ฉันจะไปเที่ยว",
+    "eng": "if I'm free, I'll go out"
+  },
+  {
+    "thai": "ถ้าฝนไม่ตก เราจะเดินเล่น",
+    "eng": "if it doesn't rain, we'll take a walk"
+  },
+  {
+    "thai": "ถ้าไม่เข้าใจ ถามได้นะ",
+    "eng": "if you don't understand, you can ask"
+  },
+  {
+    "thai": "ถ้าหิว กินข้าวก่อนได้",
+    "eng": "if you're hungry, you can eat first"
+  },
+  {
+    "thai": "ถ้าเหนื่อย ไปพักผ่อนเถอะ",
+    "eng": "if you're tired, go and rest"
+  },
+  {
+    "thai": "หลังจากกินข้าว จะดื่มกาแฟ",
+    "eng": "after eating, (I'll) have coffee"
+  },
+  {
+    "thai": "หลังจากฝนตก อากาศดีมาก",
+    "eng": "after the rain the weather is very nice"
+  },
+  {
+    "thai": "หลังจากอ่านหนังสือ เขานอนหลับ",
+    "eng": "after reading, he/she fell asleep"
+  },
+  {
+    "thai": "หลังจากจ่ายเงิน เขาได้รับใบเสร็จ",
+    "eng": "after paying, he/she got a receipt"
+  },
+  {
+    "thai": "เขาได้รับเงิน",
+    "eng": "he/she received the money"
   }
 ]

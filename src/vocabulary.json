@@ -4858,5 +4858,809 @@
     "eng": "heavy",
     "tier": 2,
     "complexity": 2
+  },
+  {
+    "thai": "มี",
+    "eng": "to have; there is",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "สี่",
+    "eng": "four",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หู",
+    "eng": "ear",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หูฟัง",
+    "eng": "headphones",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เพลง",
+    "eng": "song",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ฟังเพลง",
+    "eng": "to listen to music",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หวาน",
+    "eng": "sweet",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ขนม",
+    "eng": "snack; sweets",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ขนมปัง",
+    "eng": "bread",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เหลือง",
+    "eng": "yellow",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "สูง",
+    "eng": "tall; high",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หัวเราะ",
+    "eng": "to laugh",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ซุป",
+    "eng": "soup",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "นิด",
+    "eng": "a bit",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ร้องไห้",
+    "eng": "to cry",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ซ้อม",
+    "eng": "to practice; to rehearse",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ป้อน",
+    "eng": "to feed (someone)",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ฟิต",
+    "eng": "fit (in shape)",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "ป่า",
+    "eng": "forest",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ฟรี",
+    "eng": "free (of charge)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ขับรถ",
+    "eng": "to drive (a car)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ผัว",
+    "eng": "husband (informal)",
+    "tier": 3,
+    "complexity": 1
+  },
+  {
+    "thai": "น้ำเปล่า",
+    "eng": "plain water",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "น้ำร้อน",
+    "eng": "hot water",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "น้ำเย็น",
+    "eng": "cold water",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตะวันออก",
+    "eng": "east",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ตะวันตก",
+    "eng": "west",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "แปรงสีฟัน",
+    "eng": "toothbrush",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "แปรงสีฟันไฟฟ้า",
+    "eng": "electric toothbrush",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ยาสีฟัน",
+    "eng": "toothpaste",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ซักผ้า",
+    "eng": "to do laundry",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เครื่องซักผ้า",
+    "eng": "washing machine",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เสร็จ",
+    "eng": "finished; done",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เสร็จแล้ว",
+    "eng": "done!; finished",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ใบเสร็จ",
+    "eng": "receipt",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หนังสือ",
+    "eng": "book",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "หนังสือเดินทาง",
+    "eng": "passport",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "พาสปอร์ต",
+    "eng": "passport (loanword)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เพื่อน",
+    "eng": "friend",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ปากกา",
+    "eng": "pen",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "แมว",
+    "eng": "cat",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เสื้อ",
+    "eng": "shirt",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เก้าอี้",
+    "eng": "chair",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ตั๋ว",
+    "eng": "ticket",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "กล่อง",
+    "eng": "box",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หมอน",
+    "eng": "pillow",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มีด",
+    "eng": "knife",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ทีวี",
+    "eng": "TV",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "จักรยาน",
+    "eng": "bicycle",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ผัดไทย",
+    "eng": "pad thai",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ชาไทย",
+    "eng": "Thai tea",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ปัญหา",
+    "eng": "problem",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "แก้ปัญหา",
+    "eng": "to solve a problem",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "คุย",
+    "eng": "to chat; to talk",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ตัด",
+    "eng": "to cut",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ได้รับ",
+    "eng": "to receive",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ว่าง",
+    "eng": "free (not busy); empty",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ตัวเอง",
+    "eng": "oneself",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ด้วยตัวเอง",
+    "eng": "by oneself",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ตัวผมเอง",
+    "eng": "I myself",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ตัวเขาเอง",
+    "eng": "he himself; she herself",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ตัวคุณเอง",
+    "eng": "you yourself",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "รักตัวเอง",
+    "eng": "to love oneself",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เรียนด้วยตัวเอง",
+    "eng": "to study on one's own",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เหมือนกัน",
+    "eng": "the same; too, likewise",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เห็นด้วย",
+    "eng": "to agree",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ไปด้วย",
+    "eng": "to go along; to come too",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "กินด้วย",
+    "eng": "to eat too",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "คนนี้",
+    "eng": "this person",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ใบ",
+    "eng": "classifier for flat things, bags and boxes",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เล่ม",
+    "eng": "classifier for books and knives",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "คัน",
+    "eng": "classifier for vehicles",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "รู้สึก",
+    "eng": "to feel",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "รู้สึกดี",
+    "eng": "to feel good",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "รู้สึกเหนื่อย",
+    "eng": "to feel tired",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "รู้สึกหิว",
+    "eng": "to feel hungry",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "รู้สึกไม่สบาย",
+    "eng": "to feel unwell",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หลังจาก",
+    "eng": "after",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หลังจากกินข้าว",
+    "eng": "after eating",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หลังจากทำงาน",
+    "eng": "after work",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หลังจากกลับบ้าน",
+    "eng": "after getting home",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "หลังจากเรียนเสร็จ",
+    "eng": "after class is over",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ถ้าว่าง",
+    "eng": "if (you're) free",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถ้ามีเงิน",
+    "eng": "if (I) have money",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถ้าชอบ",
+    "eng": "if (you) like it",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ถ้าฝนไม่ตก",
+    "eng": "if it doesn't rain",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เป็นไปได้",
+    "eng": "possible",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เป็นไปไม่ได้",
+    "eng": "impossible",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ถ้าเป็นไปได้",
+    "eng": "if possible",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "สวยที่สุด",
+    "eng": "the most beautiful",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ชอบที่สุด",
+    "eng": "to like the most",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เร็วที่สุด",
+    "eng": "the fastest",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แก้วนี้",
+    "eng": "this glass",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "จานนี้",
+    "eng": "this plate",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "คันนี้",
+    "eng": "this one (vehicle)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กล่องใบนี้",
+    "eng": "this box",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เพื่อนสองคน",
+    "eng": "two friends",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ลูกค้าสามคน",
+    "eng": "three customers",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ปากกาสองอัน",
+    "eng": "two pens",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "แปรงสีฟันสองอัน",
+    "eng": "two toothbrushes",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กรรไกรหนึ่งอัน",
+    "eng": "one pair of scissors",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "แมวสองตัว",
+    "eng": "two cats",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เสื้อสามตัว",
+    "eng": "three shirts",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "กางเกงหนึ่งตัว",
+    "eng": "one pair of trousers",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เก้าอี้สี่ตัว",
+    "eng": "four chairs",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ม้าห้าตัว",
+    "eng": "five horses",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กาแฟหนึ่งแก้ว",
+    "eng": "one cup of coffee",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "น้ำหนึ่งแก้ว",
+    "eng": "one glass of water",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "น้ำเปล่าสองแก้ว",
+    "eng": "two glasses of water",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เบียร์สามแก้ว",
+    "eng": "three glasses of beer",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ชาไทยหนึ่งแก้ว",
+    "eng": "one glass of Thai tea",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ข้าวผัดหนึ่งจาน",
+    "eng": "one plate of fried rice",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ผัดไทยสองจาน",
+    "eng": "two plates of pad thai",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ส้มตำหนึ่งจาน",
+    "eng": "one plate of papaya salad",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "น้ำหนึ่งขวด",
+    "eng": "one bottle of water",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "น้ำสองขวด",
+    "eng": "two bottles of water",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไวน์หนึ่งขวด",
+    "eng": "one bottle of wine",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "มอเตอร์ไซค์สองคัน",
+    "eng": "two motorbikes",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "จักรยานสามคัน",
+    "eng": "three bicycles",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "รถบัสหนึ่งคัน",
+    "eng": "one bus",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "โทรศัพท์หนึ่งเครื่อง",
+    "eng": "one phone",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "มือถือหนึ่งเครื่อง",
+    "eng": "one mobile phone",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "คอมสองเครื่อง",
+    "eng": "two computers",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "เครื่องซักผ้าหนึ่งเครื่อง",
+    "eng": "one washing machine",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ทีวีหนึ่งเครื่อง",
+    "eng": "one TV",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "กระเป๋าหนึ่งใบ",
+    "eng": "one bag",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ตั๋วสองใบ",
+    "eng": "two tickets",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ใบเสร็จหนึ่งใบ",
+    "eng": "one receipt",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "กล่องสามใบ",
+    "eng": "three boxes",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หมอนสองใบ",
+    "eng": "two pillows",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หนังสือสองเล่ม",
+    "eng": "two books",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "สมุดหนึ่งเล่ม",
+    "eng": "one notebook",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "พาสปอร์ตหนึ่งเล่ม",
+    "eng": "one passport",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "มีดหนึ่งเล่ม",
+    "eng": "one knife",
+    "tier": 2,
+    "complexity": 2
   }
 ]
