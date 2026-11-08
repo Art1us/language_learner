@@ -6124,5 +6124,293 @@
     "eng": "Toronto",
     "tier": 3,
     "complexity": 3
+  },
+  {
+    "thai": "เมืองหลวง",
+    "eng": "capital city",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "อยุธยา",
+    "eng": "Ayutthaya",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ทั่วโลก",
+    "eng": "all over the world",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "สถานที่",
+    "eng": "place; location",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "สวยงาม",
+    "eng": "beautiful (formal)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ผู้คน",
+    "eng": "people",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เป็นมิตร",
+    "eng": "friendly",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เสน่ห์",
+    "eng": "charm",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "ผสมผสาน",
+    "eng": "to blend; to mix together",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ดั้งเดิม",
+    "eng": "traditional; original",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "วิถีชีวิต",
+    "eng": "way of life",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "สมัยใหม่",
+    "eng": "modern",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "แม้ว่า",
+    "eng": "although",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "บางครั้ง",
+    "eng": "sometimes",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "การจราจร",
+    "eng": "traffic",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "จราจร",
+    "eng": "traffic",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "รถติด",
+    "eng": "traffic jam",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ติดขัด",
+    "eng": "to be jammed; stuck",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "แออัด",
+    "eng": "crowded",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "รอยยิ้ม",
+    "eng": "a smile",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "มิตรไมตรี",
+    "eng": "friendliness; goodwill",
+    "tier": 4,
+    "complexity": 3
+  },
+  {
+    "thai": "ประทับใจ",
+    "eng": "impressed",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "เสมอ",
+    "eng": "always",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ตลาด",
+    "eng": "market",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ข้าวเช้า",
+    "eng": "breakfast (colloquial)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เมนู",
+    "eng": "menu",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "คิดถึง",
+    "eng": "to miss (someone)",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "มาถึง",
+    "eng": "to arrive",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "สั่ง",
+    "eng": "to order",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เพิ่ม",
+    "eng": "to add; more",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "วันจันทร์หน้า",
+    "eng": "next Monday",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "วันจันทร์ที่แล้ว",
+    "eng": "last Monday",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "เดือนหน้า",
+    "eng": "next month",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ปีหน้า",
+    "eng": "next year",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ปีนี้",
+    "eng": "this year",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "สัปดาห์นี้",
+    "eng": "this week",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "อาทิตย์หน้า",
+    "eng": "next week",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "แปล",
+    "eng": "to translate",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "แปลว่า",
+    "eng": "means (translates as)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "คำ",
+    "eng": "word",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "นานแล้ว",
+    "eng": "a long time ago; for a long time now",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "มานานแล้ว",
+    "eng": "for a long time (up to now)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "อาศัยอยู่",
+    "eng": "to live (reside)",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ข้าวเหนียว",
+    "eng": "sticky rice",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ที่นี่",
+    "eng": "here",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ระหว่าง",
+    "eng": "between",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ทำให้",
+    "eng": "to make (cause)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ทุกคน",
+    "eng": "everyone",
+    "tier": 1,
+    "complexity": 1
   }
 ]

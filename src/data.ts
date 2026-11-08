@@ -112,7 +112,14 @@ export const EXAMPLES: Record<string, { start?: Example; end?: Example }> = Obje
 )
 
 /** Bundled clip name for a Thai string: hex code points, e.g. "กา" → "0e01-0e32.mp3" (see scripts/gen-audio.mjs). */
-export const clipFile = (text: string) => [...text].map((c) => c.codePointAt(0)!.toString(16).padStart(4, '0')).join('-') + '.mp3'
+/** Clip filename for a key: its codepoints in hex, or a 32-bit hash when that would exceed the 255-byte filename limit (long sentences). */
+export const clipFile = (text: string) => {
+  const name = [...text].map((c) => c.codePointAt(0)!.toString(16).padStart(4, '0')).join('-')
+  if (name.length <= 250) return name + '.mp3'
+  let h = 0
+  for (const c of text) h = (Math.imul(h, 31) + c.codePointAt(0)!) >>> 0
+  return `long-${h.toString(16)}.mp3`
+}
 
 // ---------- Tones ----------
 export type Tone = 'mid' | 'low' | 'falling' | 'high' | 'rising'

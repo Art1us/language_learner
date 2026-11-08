@@ -1,5 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest'
 import { LETTERS } from './data'
+import { clipFile } from './data'
 import { drillNext, inPlay, record, reset, resetMode } from './store'
 
 const pool = LETTERS.slice(0, 5)
@@ -54,4 +55,12 @@ it('resetMode forgets one mode only', () => {
   resetMode('learn')
   expect(inPlay([{ ch: 'ก' }], 'learn')).toEqual([])
   expect(inPlay([{ ch: 'ก' }], 'drill')).toHaveLength(1)
+})
+
+it('clipFile stays under the filename limit for long sentences', () => {
+  expect(clipFile('กา')).toBe('0e01-0e32.mp3')
+  const long = 'กรุงเทพมหานคร'.repeat(8)
+  expect(clipFile(long).length).toBeLessThan(30)
+  expect(clipFile(long)).toBe(clipFile(long))
+  expect(clipFile(long)).not.toBe(clipFile(long + 'ก'))
 })
