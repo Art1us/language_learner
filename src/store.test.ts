@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest'
 import { LETTERS } from './data'
-import { drillNext, inPlay, record, reset } from './store'
+import { drillNext, inPlay, record, reset, resetMode } from './store'
 
 const pool = LETTERS.slice(0, 5)
 
@@ -46,4 +46,12 @@ describe('drillNext', () => {
       prev = next
     }
   })
+})
+
+it('resetMode forgets one mode only', () => {
+  record('learn', 'ก', true)
+  record('drill', 'ก', true)
+  resetMode('learn')
+  expect(inPlay([{ ch: 'ก' }], 'learn')).toEqual([])
+  expect(inPlay([{ ch: 'ก' }], 'drill')).toHaveLength(1)
 })

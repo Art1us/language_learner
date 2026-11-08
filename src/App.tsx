@@ -12,7 +12,7 @@ import { LETTERS, TONE_WORDS, VOWELS, filterLetters, filterToneWords, type Filte
 import { useKeys } from './ui'
 import { playClip } from './speech'
 import { lang, setLang } from './lang'
-import { MODES, drawRound, shuffle, drillNext, inPlay, mastered, getBox, record, reset, type Mode } from './store'
+import { MODES, drawRound, shuffle, drillNext, inPlay, mastered, getBox, record, reset, resetMode, type Mode } from './store'
 
 const MODE_INFO: Record<Mode, [string, string]> = {
   class: ['Class & sounds', 'Middle, high or low? Then the start and end sounds.'],
@@ -38,6 +38,8 @@ const LEVELS = ['Easy', 'Medium', 'Hard'] // vocabulary complexity 1..3
 const toggle = (xs: number[], x: number) => (xs.includes(x) ? (xs.length > 1 ? xs.filter((y) => y !== x) : xs) : [...xs, x].sort())
 const VOCAB_MODES: Mode[] = ['learn', 'vocab', 'vocabrev'] // filtered by tier and complexity
 const LEARN = { mode: 'learn' as const, start: 5, maxWeak: 3 } // 5 words to start; a new one while < 3 are weak
+/** Learn-mode introduction order: by tier, then complexity, shuffled within each bucket once per page load. */
+const LEARN_ORDER = shuffle(VOCAB).sort((a, b) => a.tier! - b.tier! || a.complexity! - b.complexity!)
 const usesFilter = (m: Mode) => m !== 'vowels' && m !== 'split' && !FLASH[m]
 
 function Seg<T>({ label, opts, on, pick, name = String }: { label: string; opts: T[]; on: (o: T) => boolean; pick: (o: T) => void; name?: (o: T) => string }) {
@@ -122,10 +124,11 @@ export default function App() {
     )
   })
 
-  const poolOf = (mode: Mode): Item[] => mode === 'tones' ? filterToneWords(filter) : mode === 'vowels' ? VOWELS : mode === 'split' ? SENTENCES : VOCAB_MODES.includes(mode) ? VOCAB.filter((w) => tiers.includes(w.tier!) && levels.includes(w.complexity!)) : FLASH[mode] ?? filterLetters(filter)
+  const vocabFilter = (w: Vocab) => tiers.includes(w.tier!) && levels.includes(w.complexity!)
+  const poolOf = (mode: Mode): Item[] => mode === 'tones' ? filterToneWords(filter) : mode === 'vowels' ? VOWELS : mode === 'split' ? SENTENCES : VOCAB_MODES.includes(mode) ? VOCAB.filter(vocabFilter) : FLASH[mode] ?? filterLetters(filter)
   // progressive pools, in the order new items are introduced
   const drillPool = (mode: 'drill' | 'learn'): (Letter | Vocab)[] =>
-    mode === 'drill' ? filterLetters(filter) : (poolOf('learn') as Vocab[]).toSorted((a, b) => a.tier! - b.tier! || a.complexity! - b.complexity!)
+    mode === 'drill' ? filterLetters(filter) : LEARN_ORDER.filter(vocabFilter)
   const start = (mode: Mode, queue: Item[] = drawRound(mode, shuffle(poolOf(mode)).slice(0, size))) =>
     setScreen({
       s: 'round',
@@ -214,7 +217,7 @@ export default function App() {
     return (
       <main className="home">
         <header className="bar">
-          <button className="btn subtle" onClick={() => setScreen({ s: 'home' })}>
+          <button className="btn subtle" onClick={() => { setConfirm(false); setScreen({ s: 'home' }) }}>
             ← Home
           </button>
         </header>
@@ -240,6 +243,25 @@ export default function App() {
         <button className="btn primary wide" disabled={!pool.length} onClick={go}>
           Start
         </button>
+        {inPlay(pool, m).length > 0 && (
+          <div className="reset">
+            {confirm ? (
+              <>
+                <span>Erase progress for this exercise?</span>
+                <button className="btn danger" onClick={() => { resetMode(m); setConfirm(false) }}>
+                  Yes, reset
+                </button>
+                <button className="btn" onClick={() => setConfirm(false)}>
+                  Cancel
+                </button>
+              </>
+            ) : (
+              <button className="btn subtle" onClick={() => setConfirm(true)}>
+                Reset progress for this exercise
+              </button>
+            )}
+          </div>
+        )}
       </main>
     )
   }

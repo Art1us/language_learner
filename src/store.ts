@@ -32,6 +32,13 @@ export function record(mode: Mode, ch: string, ok: boolean) {
 
 export const mastered = (mode: Mode) => Object.values(progress[mode]).filter((b) => b >= 4).length
 
+/** Forget one exercise's boxes (and its in-memory spacing history). */
+export function resetMode(mode: Mode) {
+  progress[mode] = {}
+  delete lastSeen[mode]
+  save()
+}
+
 export function reset() {
   progress = empty()
   lastSeen = {}
