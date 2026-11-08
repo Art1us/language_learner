@@ -630,5 +630,365 @@
   {
     "thai": "เขาได้รับเงิน",
     "eng": "he/she received the money"
+  },
+  {
+    "thai": "วันนี้อากาศดี",
+    "eng": "the weather is nice today"
+  },
+  {
+    "thai": "เราไม่รวย",
+    "eng": "I'm not rich"
+  },
+  {
+    "thai": "กระเป๋าใบนี้หนัก",
+    "eng": "this bag is heavy"
+  },
+  {
+    "thai": "กระเป๋านี้หนัก",
+    "eng": "this bag is heavy"
+  },
+  {
+    "thai": "ดูสินั่นเพื่อนเรา",
+    "eng": "look, that's my friend"
+  },
+  {
+    "thai": "เรากับพี่ชายเล่นเทนนิสเก่ง",
+    "eng": "my brother and I are good at tennis"
+  },
+  {
+    "thai": "แม่เขาอยู่บ้าน เขาอยู่ที่โรงเรียน",
+    "eng": "his mother is at home, he's at school"
+  },
+  {
+    "thai": "ลูกเขาอยู่ที่โรงเรียน",
+    "eng": "her children are at school"
+  },
+  {
+    "thai": "เราเป็นคนขับแท็กซี่",
+    "eng": "I'm a taxi driver"
+  },
+  {
+    "thai": "น้องสาวเราเป็นพยาบาล",
+    "eng": "my sister is a nurse"
+  },
+  {
+    "thai": "เขาไม่สบาย เขานอนอยู่",
+    "eng": "he's sick, he's in bed"
+  },
+  {
+    "thai": "ไม่หิวแต่อยากกินน้ำ",
+    "eng": "I'm not hungry but I'm thirsty"
+  },
+  {
+    "thai": "เขาแก่มาก เขาอายุเก้าสิบแปดปีแล้ว",
+    "eng": "he's very old, he's ninety-eight"
+  },
+  {
+    "thai": "เก้าอี้นี้ไม่สวยแต่นั่งสบาย",
+    "eng": "this chair isn't pretty but it's comfortable"
+  },
+  {
+    "thai": "วันนี้อากาศดีแล้วก็มีแดด",
+    "eng": "it's a nice sunny day today"
+  },
+  {
+    "thai": "มาสายนะ ไม่สายซะหน่อย มาเร็วต่างหาก",
+    "eng": "you're late. No I'm not, I'm early"
+  },
+  {
+    "thai": "เขาไม่ได้อยู่บ้าน เขาอยู่ที่ทำงาน",
+    "eng": "she isn't at home, she's at work"
+  },
+  {
+    "thai": "นี่เสื้อโค้ทของเธอนะ",
+    "eng": "this is your coat"
+  },
+  {
+    "thai": "ชื่ออะไรเหรอ",
+    "eng": "what's your name?"
+  },
+  {
+    "thai": "ผมชื่ออลัน",
+    "eng": "my name is Alan"
+  },
+  {
+    "thai": "มาจากที่ไหนเหรอ",
+    "eng": "where are you from?"
+  },
+  {
+    "thai": "มาจากนิวยอร์ก",
+    "eng": "I'm from New York"
+  },
+  {
+    "thai": "อายุเท่าไหร่",
+    "eng": "how old are you?"
+  },
+  {
+    "thai": "อายุยี่สิบ",
+    "eng": "I'm twenty"
+  },
+  {
+    "thai": "ทำงานอะไร",
+    "eng": "what's your job?"
+  },
+  {
+    "thai": "เป็นครู",
+    "eng": "I'm a teacher"
+  },
+  {
+    "thai": "ชอบสีอะไร",
+    "eng": "what's your favorite color?"
+  },
+  {
+    "thai": "ชอบสีฟ้า",
+    "eng": "I like blue"
+  },
+  {
+    "thai": "สนใจอะไรบ้าง",
+    "eng": "what are you interested in?"
+  },
+  {
+    "thai": "สนใจดนตรี",
+    "eng": "I'm interested in music"
+  },
+  {
+    "thai": "วันนี้ร้อน",
+    "eng": "it's hot today"
+  },
+  {
+    "thai": "วันนี้ไม่ร้อน",
+    "eng": "it's not hot today"
+  },
+  {
+    "thai": "วันนี้ลมแรง",
+    "eng": "it's windy today"
+  },
+  {
+    "thai": "วันนี้ลมไม่แรง",
+    "eng": "it's not windy today"
+  },
+  {
+    "thai": "มือเย็นหมดเลย",
+    "eng": "my hands are cold"
+  },
+  {
+    "thai": "บราซิลเป็นประเทศที่ใหญ่มาก",
+    "eng": "Brazil is a very big country"
+  },
+  {
+    "thai": "เพชรราคาแพง",
+    "eng": "diamonds are expensive"
+  },
+  {
+    "thai": "โตรอนโตไม่ได้อยู่ในอเมริกา",
+    "eng": "Toronto isn't in the United States"
+  },
+  {
+    "thai": "ไม่เหนื่อย",
+    "eng": "I'm not tired"
+  },
+  {
+    "thai": "ไม่หิว",
+    "eng": "I'm not hungry"
+  },
+  {
+    "thai": "เขาว่ายน้ำเก่ง",
+    "eng": "he's a good swimmer"
+  },
+  {
+    "thai": "ไม่สนใจการเมือง",
+    "eng": "I'm not interested in politics"
+  },
+  {
+    "thai": "ฉันชื่ออแมนด้า",
+    "eng": "my name is Amanda"
+  },
+  {
+    "thai": "แต่งงานหรือยัง",
+    "eng": "are you married?"
+  },
+  {
+    "thai": "ยังโสดอยู่",
+    "eng": "I'm still single"
+  },
+  {
+    "thai": "อายุยี่สิบห้า",
+    "eng": "I'm twenty-five"
+  },
+  {
+    "thai": "เป็นนักเรียนหรือเปล่า",
+    "eng": "are you a student?"
+  },
+  {
+    "thai": "ใช่ เป็นนักเรียนอยู่",
+    "eng": "yes, I'm a student"
+  },
+  {
+    "thai": "เรามาสายหรือเปล่า",
+    "eng": "are we late?"
+  },
+  {
+    "thai": "เปล่า มาตรงเวลา",
+    "eng": "no, we're on time"
+  },
+  {
+    "thai": "แม่อยู่บ้านหรือเปล่า",
+    "eng": "is your mother at home?"
+  },
+  {
+    "thai": "เปล่า แม่ออกไปข้างนอก",
+    "eng": "no, she's out"
+  },
+  {
+    "thai": "พ่อแม่อยู่บ้านไหม",
+    "eng": "are your parents at home?"
+  },
+  {
+    "thai": "ไม่อยู่ เขาออกไปข้างนอก",
+    "eng": "no, they're out"
+  },
+  {
+    "thai": "ในห้องหนาวไหม",
+    "eng": "is it cold in the room?"
+  },
+  {
+    "thai": "หนาวนิดหน่อย",
+    "eng": "a little cold"
+  },
+  {
+    "thai": "รองเท้าสวยดี คู่ใหม่หรือเปล่า",
+    "eng": "nice shoes, are they new?"
+  },
+  {
+    "thai": "ใช่ คู่ใหม่",
+    "eng": "yes, they're new"
+  },
+  {
+    "thai": "แม่อยู่ไหน อยู่บ้านหรือเปล่า",
+    "eng": "where's your mother, is she at home?"
+  },
+  {
+    "thai": "มาจากที่ไหน",
+    "eng": "where are you from?"
+  },
+  {
+    "thai": "มาจากแคนาดา",
+    "eng": "I'm from Canada"
+  },
+  {
+    "thai": "รถของคุณสีอะไร",
+    "eng": "what color is your car?"
+  },
+  {
+    "thai": "ฮาซานอายุเท่าไหร่",
+    "eng": "how old is Hassan?"
+  },
+  {
+    "thai": "เขาอายุยี่สิบสี่",
+    "eng": "he's twenty-four"
+  },
+  {
+    "thai": "พ่อกับแม่สบายดีไหม",
+    "eng": "how are your parents?"
+  },
+  {
+    "thai": "พวกเขาสบายดี",
+    "eng": "they're fine"
+  },
+  {
+    "thai": "โปสการ์ดสวยดี ราคาเท่าไหร่",
+    "eng": "nice postcards, how much are they?"
+  },
+  {
+    "thai": "สามสิบบาท",
+    "eng": "thirty baht"
+  },
+  {
+    "thai": "โรงแรมนี่ไม่ค่อยดี ทำไมมันแพงขนาดนี้",
+    "eng": "this hotel isn't very good, why is it so expensive?"
+  },
+  {
+    "thai": "ขอเบอร์หน่อย",
+    "eng": "can I have your number?"
+  },
+  {
+    "thai": "ผู้ชายคนนั้นเป็นใคร",
+    "eng": "who's that man?"
+  },
+  {
+    "thai": "เขาเป็นหัวหน้า",
+    "eng": "he's the boss"
+  },
+  {
+    "thai": "เพื่อนอยู่ไหน",
+    "eng": "where's your friend?"
+  },
+  {
+    "thai": "เขาไปเข้าห้องน้ำ",
+    "eng": "he went to the toilet"
+  },
+  {
+    "thai": "พ่อสบายดีไหม",
+    "eng": "how's your father?"
+  },
+  {
+    "thai": "เขาสบายดี",
+    "eng": "he's fine"
+  },
+  {
+    "thai": "หิวไหม",
+    "eng": "are you hungry?"
+  },
+  {
+    "thai": "เพื่อนเป็นคนจีนหรือเปล่า",
+    "eng": "is your friend Chinese?"
+  },
+  {
+    "thai": "ใช่ เขาเป็นคนจีน",
+    "eng": "yes, he's Chinese"
+  },
+  {
+    "thai": "นี่กุญแจของคุณหรือเปล่า",
+    "eng": "are these your keys?"
+  },
+  {
+    "thai": "นี่ที่นั่งของเรา",
+    "eng": "these are our seats"
+  },
+  {
+    "thai": "ไม่ใช่นะ",
+    "eng": "no, they aren't"
+  },
+  {
+    "thai": "กล้องอยู่ไหน",
+    "eng": "where's the camera?"
+  },
+  {
+    "thai": "อยู่ในกระเป๋า",
+    "eng": "it's in your bag"
+  },
+  {
+    "thai": "รถคุณสีฟ้าใช่ไหม",
+    "eng": "your car is blue, isn't it?"
+  },
+  {
+    "thai": "ไม่ใช่ สีดำต่างหาก",
+    "eng": "no, it's black"
+  },
+  {
+    "thai": "ลิซ่ามาจากโตรอนโตหรือเปล่า",
+    "eng": "is Lisa from Toronto?"
+  },
+  {
+    "thai": "เปล่า เขาเป็นคนอเมริกัน",
+    "eng": "no, she's American"
+  },
+  {
+    "thai": "ใช่ มาสาย",
+    "eng": "yes, we are late"
+  },
+  {
+    "thai": "เลล่ามาจากที่ไหน",
+    "eng": "where's Leila from?"
   }
 ]

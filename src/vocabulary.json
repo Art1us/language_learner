@@ -5662,5 +5662,467 @@
     "eng": "one knife",
     "tier": 2,
     "complexity": 2
+  },
+  {
+    "thai": "อากาศ",
+    "eng": "weather; air",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ดี",
+    "eng": "good",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "นี้",
+    "eng": "this (after a noun or classifier)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "นี่",
+    "eng": "this; here",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "นั่น",
+    "eng": "that",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ที่",
+    "eng": "at; place",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ใน",
+    "eng": "in",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ดู",
+    "eng": "to look; to watch",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ดูสิ",
+    "eng": "look!",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "สิ",
+    "eng": "particle urging action (go on)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "นะ",
+    "eng": "softening particle",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เหรอ",
+    "eng": "really?; question particle",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "พี่ชาย",
+    "eng": "older brother",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "น้องสาว",
+    "eng": "younger sister",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ลูก",
+    "eng": "child (one's own)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "พ่อ",
+    "eng": "father",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "พ่อแม่",
+    "eng": "parents",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "พวกเขา",
+    "eng": "they",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ฉัน",
+    "eng": "I (female or informal)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "คนขับแท็กซี่",
+    "eng": "taxi driver",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "พยาบาล",
+    "eng": "nurse",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หัวหน้า",
+    "eng": "boss; head",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่สบาย",
+    "eng": "sick; unwell",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "สบายดี",
+    "eng": "fine; well",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "แก่",
+    "eng": "old (of people)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ปี",
+    "eng": "year",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "แดด",
+    "eng": "sunshine",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "มีแดด",
+    "eng": "sunny",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "แรง",
+    "eng": "strong; forceful",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "ลมแรง",
+    "eng": "windy",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "หนาว",
+    "eng": "cold (weather)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ซะหน่อย",
+    "eng": "not at all (after ไม่, dismissive)",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ต่างหาก",
+    "eng": "on the contrary; rather",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ได้",
+    "eng": "did not; is not (negating a fact)",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ไม่ใช่",
+    "eng": "no; is not",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ใช่",
+    "eng": "yes; that's right",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ใช่แล้ว",
+    "eng": "that's right",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ทำไม",
+    "eng": "why",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ที่ทำงาน",
+    "eng": "workplace; at work",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ตรงเวลา",
+    "eng": "on time",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ออกไป",
+    "eng": "to go out",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ข้างนอก",
+    "eng": "outside",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "หิวข้าว",
+    "eng": "hungry",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "ว่ายน้ำ",
+    "eng": "to swim",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "แต่งงาน",
+    "eng": "to marry; married",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "โสด",
+    "eng": "single (unmarried)",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "เสื้อโค้ท",
+    "eng": "coat",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "รองเท้า",
+    "eng": "shoes",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "คู่",
+    "eng": "pair; classifier for pairs",
+    "tier": 2,
+    "complexity": 1
+  },
+  {
+    "thai": "กล้อง",
+    "eng": "camera",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "โปสการ์ด",
+    "eng": "postcard",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "เพชร",
+    "eng": "diamond",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ที่นั่ง",
+    "eng": "seat",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "โรงแรม",
+    "eng": "hotel",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "บาท",
+    "eng": "baht",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "สี",
+    "eng": "color",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "สีฟ้า",
+    "eng": "blue",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "แดง",
+    "eng": "red",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "สีแดง",
+    "eng": "red (color)",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หมด",
+    "eng": "all gone; entirely",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "หมดเลย",
+    "eng": "completely",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "ขนาดนี้",
+    "eng": "this much; to this extent",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "คนนั้น",
+    "eng": "that person",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "เข้าห้องน้ำ",
+    "eng": "to go to the toilet",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "การเมือง",
+    "eng": "politics",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "ยี่สิบสี่",
+    "eng": "twenty-four",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "ยี่สิบห้า",
+    "eng": "twenty-five",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "สามสิบ",
+    "eng": "thirty",
+    "tier": 1,
+    "complexity": 2
+  },
+  {
+    "thai": "เก้าสิบแปด",
+    "eng": "ninety-eight",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "อเมริกา",
+    "eng": "America",
+    "tier": 2,
+    "complexity": 2
+  },
+  {
+    "thai": "อเมริกัน",
+    "eng": "American",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "คนอเมริกัน",
+    "eng": "American person",
+    "tier": 2,
+    "complexity": 3
+  },
+  {
+    "thai": "คนจีน",
+    "eng": "Chinese person",
+    "tier": 1,
+    "complexity": 1
+  },
+  {
+    "thai": "บราซิล",
+    "eng": "Brazil",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "แคนาดา",
+    "eng": "Canada",
+    "tier": 3,
+    "complexity": 2
+  },
+  {
+    "thai": "นิวยอร์ก",
+    "eng": "New York",
+    "tier": 3,
+    "complexity": 3
+  },
+  {
+    "thai": "โตรอนโต",
+    "eng": "Toronto",
+    "tier": 3,
+    "complexity": 3
   }
 ]
