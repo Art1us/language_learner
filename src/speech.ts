@@ -19,10 +19,13 @@ export const voicesReady = (): Promise<void> =>
   })
 
 const clips = new Map<string, HTMLAudioElement>()
+// iOS suspends media elements while the phone is locked and they stay broken afterwards; rebuild on return (HTTP cache keeps it fast).
+document.addEventListener('visibilitychange', () => { if (!document.hidden) clips.clear() })
 /** Start downloading a clip ahead of time so playClip starts instantly. */
 export function preloadClip(key: string) {
   let a = clips.get(key)
   if (!a) {
+    if (clips.size > 20) clips.clear() // iOS caps live media elements
     a = new Audio(`${import.meta.env.BASE_URL}audio/${clipFile(key)}`)
     a.preload = 'auto'
     clips.set(key, a)
@@ -32,14 +35,16 @@ export function preloadClip(key: string) {
 
 /** Play the bundled clip for `key` (a letter or word), else speak `text`. Returns false if nothing could play. */
 export async function playClip(key: string, text: string): Promise<boolean> {
-  try {
-    const a = preloadClip(key)
-    a.currentTime = 0
-    await a.play()
-    return true
-  } catch {
-    return speakThai(text)
+  for (const retry of [false, true]) {
+    try {
+      if (retry) clips.delete(key) // stale element: rebuild once
+      const a = preloadClip(key)
+      a.currentTime = 0
+      await a.play()
+      return true
+    } catch { /* fall through */ }
   }
+  return speakThai(text)
 }
 export const playName = (l: Letter) => playClip(l.ch, l.thai)
 
