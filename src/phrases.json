@@ -1114,5 +1114,717 @@
   {
     "thai": "มีงานเยอะมาก",
     "eng": "I have a lot of work"
+  },
+  {
+    "thai": "พูดช้าๆ ได้ไหมครับ",
+    "eng": "can you speak slowly?"
+  },
+  {
+    "thai": "จ่ายด้วยบัตรเครดิตได้ไหมครับ",
+    "eng": "can I pay by credit card?"
+  },
+  {
+    "thai": "ถ่ายรูปตรงนี้ได้ไหมครับ",
+    "eng": "can I take a photo here?"
+  },
+  {
+    "thai": "เปิดแอร์ได้ไหมครับ",
+    "eng": "can you turn on the air conditioner?"
+  },
+  {
+    "thai": "ขอเมนูภาษาอังกฤษได้ไหมครับ",
+    "eng": "can I have an English menu?"
+  },
+  {
+    "thai": "ฝากกระเป๋าไว้ที่นี่ได้ไหมครับ",
+    "eng": "can I leave my bag here?"
+  },
+  {
+    "thai": "นั่งตรงนี้ได้ไหมครับ",
+    "eng": "can I sit here?"
+  },
+  {
+    "thai": "โทรหาคุณพรุ่งนี้ได้ไหมครับ",
+    "eng": "can I call you tomorrow?"
+  },
+  {
+    "thai": "มีห้องว่างไหมครับ",
+    "eng": "do you have a vacant room?"
+  },
+  {
+    "thai": "มีไซส์ใหญ่กว่านี้ไหมครับ",
+    "eng": "do you have a bigger size?"
+  },
+  {
+    "thai": "มีโต๊ะสำหรับสี่คนไหมครับ",
+    "eng": "do you have a table for four?"
+  },
+  {
+    "thai": "ของขวัญชิ้นนี้สำหรับคุณ",
+    "eng": "this gift is for you"
+  },
+  {
+    "thai": "เมนูนี้สำหรับเด็กเท่านั้น",
+    "eng": "this menu is for children only"
+  },
+  {
+    "thai": "นี่คือแอปพลิเคชันสำหรับเรียนภาษาไทย",
+    "eng": "this is an app for learning Thai"
+  },
+  {
+    "thai": "มีเวลาว่างพรุ่งนี้ไหมครับ",
+    "eng": "do you have free time tomorrow?"
+  },
+  {
+    "thai": "มีคำถามอะไรไหมครับ",
+    "eng": "do you have any questions?"
+  },
+  {
+    "thai": "มีกาแฟร้อนไหมครับ",
+    "eng": "do you have hot coffee?"
+  },
+  {
+    "thai": "มีเมนูเจไหมครับ",
+    "eng": "do you have a vegetarian menu?"
+  },
+  {
+    "thai": "คุณขับรถเป็นไหม",
+    "eng": "can you drive?"
+  },
+  {
+    "thai": "คุณว่ายน้ำเป็นไหม",
+    "eng": "can you swim?"
+  },
+  {
+    "thai": "คุณพูดภาษาไทยเป็นไหม",
+    "eng": "can you speak Thai?"
+  },
+  {
+    "thai": "คุณทำอาหารไทยเป็นไหม",
+    "eng": "can you cook Thai food?"
+  },
+  {
+    "thai": "คุณเล่นกีตาร์เป็นไหม",
+    "eng": "can you play the guitar?"
+  },
+  {
+    "thai": "คุณใช้โปรแกรมนี้เป็นไหม",
+    "eng": "do you know how to use this program?"
+  },
+  {
+    "thai": "ตั๋วไปเชียงใหม่เท่าไหร่ครับ",
+    "eng": "how much is a ticket to Chiang Mai?"
+  },
+  {
+    "thai": "กิโลละเท่าไหร่ครับ",
+    "eng": "how much per kilo?"
+  },
+  {
+    "thai": "ทำไมไม่กินข้าว",
+    "eng": "why aren't you eating?"
+  },
+  {
+    "thai": "ทำไมราคานี้แพงจัง",
+    "eng": "why is this price so high?"
+  },
+  {
+    "thai": "ทำไมร้านนี้ปิดวันนี้",
+    "eng": "why is this shop closed today?"
+  },
+  {
+    "thai": "ทำไมคุณชอบไปเชียงใหม่",
+    "eng": "why do you like going to Chiang Mai?"
+  },
+  {
+    "thai": "ทำไมรถติดจัง",
+    "eng": "why is the traffic so bad?"
+  },
+  {
+    "thai": "ทำไมยังไม่นอน",
+    "eng": "why aren't you asleep yet?"
+  },
+  {
+    "thai": "ทำอาหารจานนี้ยังไง",
+    "eng": "how do you cook this dish?"
+  },
+  {
+    "thai": "ออกเสียงคำนี้อย่างไร",
+    "eng": "how do you pronounce this word?"
+  },
+  {
+    "thai": "สั่งซื้อออนไลน์ยังไง",
+    "eng": "how do I order online?"
+  },
+  {
+    "thai": "กินข้าวแล้ว",
+    "eng": "I've eaten already"
+  },
+  {
+    "thai": "จ่ายเงินแล้ว",
+    "eng": "already paid"
+  },
+  {
+    "thai": "อาบน้ำแล้ว",
+    "eng": "I've showered already"
+  },
+  {
+    "thai": "ฝนตกแล้ว",
+    "eng": "it's raining now"
+  },
+  {
+    "thai": "สายแล้ว",
+    "eng": "it's late now"
+  },
+  {
+    "thai": "พร้อมแล้ว",
+    "eng": "ready now"
+  },
+  {
+    "thai": "คิดว่าราคาแพงเกินไป",
+    "eng": "I think the price is too high"
+  },
+  {
+    "thai": "คิดว่าจะไปเที่ยวเชียงใหม่",
+    "eng": "I think I'll go to Chiang Mai"
+  },
+  {
+    "thai": "คิดว่าไม่มีปัญหาอะไร",
+    "eng": "I think there's no problem"
+  },
+  {
+    "thai": "คิดว่าพรุ่งนี้จะงานยุ่ง",
+    "eng": "I think I'll be busy tomorrow"
+  },
+  {
+    "thai": "อยากไปแต่ไม่มีเวลา",
+    "eng": "I want to go but I have no time"
+  },
+  {
+    "thai": "พยายามแล้วแต่ยังทำไม่ได้",
+    "eng": "I tried but still can't do it"
+  },
+  {
+    "thai": "อาหารอร่อยแต่เผ็ดไปหน่อย",
+    "eng": "the food is tasty but a bit too spicy"
+  },
+  {
+    "thai": "เขาพูดเร็วแต่เข้าใจได้",
+    "eng": "he speaks fast but I can understand"
+  },
+  {
+    "thai": "เหนื่อยแต่มีความสุข",
+    "eng": "tired but happy"
+  },
+  {
+    "thai": "ฝนตกแต่แดดออก",
+    "eng": "it's raining but the sun is out"
+  },
+  {
+    "thai": "มาสายเพราะว่ารถติด",
+    "eng": "I'm late because of traffic"
+  },
+  {
+    "thai": "ไม่กินเผ็ดเพราะว่าปวดท้อง",
+    "eng": "I'm not eating spicy food because I have a stomach ache"
+  },
+  {
+    "thai": "เรียนภาษาไทยเพราะว่าชอบประเทศไทย",
+    "eng": "I'm learning Thai because I like Thailand"
+  },
+  {
+    "thai": "ไม่ได้ออกไปข้างนอกเพราะว่าฝนตกหนัก",
+    "eng": "I didn't go out because it rained hard"
+  },
+  {
+    "thai": "เหนื่อยเพราะว่าทำงานทั้งวัน",
+    "eng": "tired because I worked all day"
+  },
+  {
+    "thai": "นอนหลับสบายดี",
+    "eng": "slept well"
+  },
+  {
+    "thai": "ปกติผมไม่กินข้าวกลางวันครับ",
+    "eng": "normally I don't eat lunch"
+  },
+  {
+    "thai": "นอนหลับไปแปดชั่วโมงครับ",
+    "eng": "I slept for eight hours"
+  },
+  {
+    "thai": "วิ่งไปห้ากิโล",
+    "eng": "I ran five kilometers"
+  },
+  {
+    "thai": "จ่ายไปห้าร้อยบาท",
+    "eng": "I paid five hundred baht"
+  },
+  {
+    "thai": "เมื่อเช้าออกกำลังกายไปสี่สิบห้านาที",
+    "eng": "this morning I exercised for forty-five minutes"
+  },
+  {
+    "thai": "นั่งรอหมอไปสองชั่วโมง",
+    "eng": "I sat waiting for the doctor for two hours"
+  },
+  {
+    "thai": "เขาแบบว่า ไม่ค่อยอยากไปเท่าไหร่",
+    "eng": "he's like, not really keen to go"
+  },
+  {
+    "thai": "มันแบบ อธิบายยาก",
+    "eng": "it's like, hard to explain"
+  },
+  {
+    "thai": "พูดแบบนี้",
+    "eng": "say it like this"
+  },
+  {
+    "thai": "กินแบบไทย",
+    "eng": "eat Thai style"
+  },
+  {
+    "thai": "จากกรุงเทพไปพัทยาใช้เวลาประมาณสองชั่วโมงครับ",
+    "eng": "from Bangkok to Pattaya takes about two hours"
+  },
+  {
+    "thai": "ขับรถไปพัทยาใช้เวลาสองชั่วโมง",
+    "eng": "driving to Pattaya takes two hours"
+  },
+  {
+    "thai": "ทำเอกสารนี้ใช้เวลาไม่นาน",
+    "eng": "doing this document doesn't take long"
+  },
+  {
+    "thai": "คุณใช้เวลาทำงานนี้นานไหม",
+    "eng": "did this work take you long?"
+  },
+  {
+    "thai": "รถคันนี้ใช้น้ำมันน้อยกว่า",
+    "eng": "this car uses less petrol"
+  },
+  {
+    "thai": "รอหน่อย",
+    "eng": "wait a bit"
+  },
+  {
+    "thai": "ขอน้ำหน่อย",
+    "eng": "some water, please"
+  },
+  {
+    "thai": "กินหน่อยสิ",
+    "eng": "have a bit, go on"
+  },
+  {
+    "thai": "กินสิ",
+    "eng": "eat, go on"
+  },
+  {
+    "thai": "นั่งสิ",
+    "eng": "sit down, go on"
+  },
+  {
+    "thai": "ลองดูสิ",
+    "eng": "give it a try"
+  },
+  {
+    "thai": "ไปหาหมอสิ",
+    "eng": "go see a doctor"
+  },
+  {
+    "thai": "ไปก่อนนะ",
+    "eng": "I'm off, see you"
+  },
+  {
+    "thai": "อย่าลืมนะ",
+    "eng": "don't forget, okay?"
+  },
+  {
+    "thai": "รอแป๊บหนึ่งนะ",
+    "eng": "wait a sec, okay?"
+  },
+  {
+    "thai": "อันนี้อร่อยมากนะ",
+    "eng": "this one is really tasty"
+  },
+  {
+    "thai": "ขับรถดีๆ นะ",
+    "eng": "drive safely"
+  },
+  {
+    "thai": "กินเลย",
+    "eng": "go ahead and eat"
+  },
+  {
+    "thai": "ดีเลย",
+    "eng": "great"
+  },
+  {
+    "thai": "โทรหาเขาเลย",
+    "eng": "just call him"
+  },
+  {
+    "thai": "สวยมากเลย",
+    "eng": "so beautiful"
+  },
+  {
+    "thai": "จำไม่ได้เลย",
+    "eng": "can't remember at all"
+  },
+  {
+    "thai": "ออกไปเลย",
+    "eng": "get out"
+  },
+  {
+    "thai": "แล้วคุณล่ะ",
+    "eng": "and you?"
+  },
+  {
+    "thai": "อยู่ที่ไหนล่ะ",
+    "eng": "so where is it?"
+  },
+  {
+    "thai": "ทำยังไงล่ะ",
+    "eng": "so how do you do it?"
+  },
+  {
+    "thai": "เมื่อไหร่ล่ะ",
+    "eng": "so when?"
+  },
+  {
+    "thai": "ไปไหนกันมาล่ะ",
+    "eng": "so where have you been?"
+  },
+  {
+    "thai": "ราคาเท่าไหร่ล่ะ",
+    "eng": "so how much is it?"
+  },
+  {
+    "thai": "ใครบอกล่ะ",
+    "eng": "who said so?"
+  },
+  {
+    "thai": "ถ้าแพงเกินไปจะไม่ซื้อ",
+    "eng": "if it's too expensive I won't buy it"
+  },
+  {
+    "thai": "ถ้าหิวจะแวะกินข้าว",
+    "eng": "if I'm hungry I'll stop for food"
+  },
+  {
+    "thai": "ถ้ามีปัญหาจะช่วยเหลือ",
+    "eng": "if there's a problem I'll help"
+  },
+  {
+    "thai": "ทำงานอยู่",
+    "eng": "working (right now)"
+  },
+  {
+    "thai": "กำลังกินข้าวอยู่",
+    "eng": "eating right now"
+  },
+  {
+    "thai": "กำลังดูทีวีอยู่",
+    "eng": "watching TV right now"
+  },
+  {
+    "thai": "อาบน้ำอยู่",
+    "eng": "showering right now"
+  },
+  {
+    "thai": "ต้องไปทำงานตอนเช้า",
+    "eng": "I have to go to work in the morning"
+  },
+  {
+    "thai": "ต้องกินยาตามหมอสั่ง",
+    "eng": "I have to take medicine as the doctor ordered"
+  },
+  {
+    "thai": "ต้องรีบไปสนามบิน",
+    "eng": "I have to hurry to the airport"
+  },
+  {
+    "thai": "ต้องโทรหาลูกค้า",
+    "eng": "I have to call the customer"
+  },
+  {
+    "thai": "ฝนอาจจะตกเย็นนี้",
+    "eng": "it might rain this evening"
+  },
+  {
+    "thai": "เขาอาจจะยังไม่รู้",
+    "eng": "he might not know yet"
+  },
+  {
+    "thai": "งานนี้อาจจะยากหน่อย",
+    "eng": "this job might be a bit hard"
+  },
+  {
+    "thai": "ราคาอาจจะแพงขึ้น",
+    "eng": "the price might go up"
+  },
+  {
+    "thai": "เคยไปเชียงใหม่สองครั้ง",
+    "eng": "I've been to Chiang Mai twice"
+  },
+  {
+    "thai": "เคยเรียนภาษาญี่ปุ่น",
+    "eng": "I've studied Japanese"
+  },
+  {
+    "thai": "เคยลองใช้แอพนี้",
+    "eng": "I've tried this app"
+  },
+  {
+    "thai": "ไม่เคยขับรถ",
+    "eng": "I've never driven"
+  },
+  {
+    "thai": "ไม่เคยไปต่างประเทศคนเดียว",
+    "eng": "I've never been abroad alone"
+  },
+  {
+    "thai": "ไม่เคยเรียนภาษาสเปน",
+    "eng": "I've never studied Spanish"
+  },
+  {
+    "thai": "ไม่เคยขึ้นเครื่องบิน",
+    "eng": "I've never been on a plane"
+  },
+  {
+    "thai": "ไปกินข้าวด้วยกันไหม",
+    "eng": "shall we go eat together?"
+  },
+  {
+    "thai": "เมื่อวานไม่ได้ไปทำงาน",
+    "eng": "I didn't go to work yesterday"
+  },
+  {
+    "thai": "เขากำลังมา",
+    "eng": "he's on his way"
+  },
+  {
+    "thai": "พรุ่งนี้มาหาได้ไหม",
+    "eng": "can you come see me tomorrow?"
+  },
+  {
+    "thai": "อยากกินก๋วยเตี๋ยว",
+    "eng": "I want noodle soup"
+  },
+  {
+    "thai": "เอาอันนี้ครับ",
+    "eng": "I'll take this one"
+  },
+  {
+    "thai": "ไม่เอาเผ็ด",
+    "eng": "not spicy, please"
+  },
+  {
+    "thai": "เอาถุงพลาสติกไหม",
+    "eng": "do you want a plastic bag?"
+  },
+  {
+    "thai": "มีคำถามไหม",
+    "eng": "any questions?"
+  },
+  {
+    "thai": "ไม่มีเวลาเลย",
+    "eng": "no time at all"
+  },
+  {
+    "thai": "ที่นี่มีไวไฟฟรี",
+    "eng": "there's free wifi here"
+  },
+  {
+    "thai": "กำลังทำอะไรอยู่",
+    "eng": "what are you doing right now?"
+  },
+  {
+    "thai": "ในร้านกาแฟแห่งนี้",
+    "eng": "in this café"
+  },
+  {
+    "thai": "ทำแบบนี้ถูกไหม",
+    "eng": "is it right to do it this way?"
+  },
+  {
+    "thai": "พูดภาษาไทยได้นิดหน่อย",
+    "eng": "I speak a little Thai"
+  },
+  {
+    "thai": "ช่วยพูดช้าๆ หน่อย",
+    "eng": "please speak slowly"
+  },
+  {
+    "thai": "เขาพูดความจริง",
+    "eng": "he's telling the truth"
+  },
+  {
+    "thai": "พูดภาษาไทยได้ไหม",
+    "eng": "can you speak Thai?"
+  },
+  {
+    "thai": "เขาพูดภาษาอังกฤษเก่งมาก",
+    "eng": "he speaks English very well"
+  },
+  {
+    "thai": "อย่าพูดเร็วเกินไป",
+    "eng": "don't speak too fast"
+  },
+  {
+    "thai": "พูดดังๆ หน่อยสิ",
+    "eng": "speak up a bit"
+  },
+  {
+    "thai": "พูดตรงๆ นะ",
+    "eng": "be frank, okay?"
+  },
+  {
+    "thai": "พูดกับใครอยู่",
+    "eng": "who are you talking to?"
+  },
+  {
+    "thai": "อย่าพูดแบบนี้อีกนะ",
+    "eng": "don't say that again, okay?"
+  },
+  {
+    "thai": "พูดอีกทีสิ",
+    "eng": "say it again"
+  },
+  {
+    "thai": "ทำอีกครั้ง",
+    "eng": "do it again"
+  },
+  {
+    "thai": "รออีกห้านาที",
+    "eng": "wait five more minutes"
+  },
+  {
+    "thai": "เอาอีกแก้ว",
+    "eng": "another glass, please"
+  },
+  {
+    "thai": "มีที่ไหนอีก",
+    "eng": "where else is there?"
+  },
+  {
+    "thai": "กินอีก",
+    "eng": "eat more"
+  },
+  {
+    "thai": "มีหนังสือ กาแฟ และอื่นๆ",
+    "eng": "there are books, coffee and other things"
+  },
+  {
+    "thai": "ชอบฟังเพลงไทย",
+    "eng": "I like listening to Thai music"
+  },
+  {
+    "thai": "ตั้งใจฟังครู",
+    "eng": "pay attention to the teacher"
+  },
+  {
+    "thai": "ชอบอ่านหนังสือ",
+    "eng": "I like reading"
+  },
+  {
+    "thai": "เขาอ่านภาษาไทยไม่ออก",
+    "eng": "he can't read Thai"
+  },
+  {
+    "thai": "ช่วยเขียนอีเมลหาลูกค้าหน่อย",
+    "eng": "please write an email to the customer"
+  },
+  {
+    "thai": "เขียนชื่อตรงนี้",
+    "eng": "write your name here"
+  },
+  {
+    "thai": "ขอดูหน่อยได้ไหม",
+    "eng": "can I have a look?"
+  },
+  {
+    "thai": "ดูเหมือนว่าฝนจะตก",
+    "eng": "it looks like it's going to rain"
+  },
+  {
+    "thai": "เห็นป้ายนั้นไหม",
+    "eng": "do you see that sign?"
+  },
+  {
+    "thai": "ไม่เห็นเขาเลยวันนี้",
+    "eng": "I haven't seen him at all today"
+  },
+  {
+    "thai": "เห็นด้วยกับความคิดนี้",
+    "eng": "I agree with this idea"
+  },
+  {
+    "thai": "คิดว่าพรุ่งนี้ฝนจะตก",
+    "eng": "I think it'll rain tomorrow"
+  },
+  {
+    "thai": "กำลังคิดเรื่องงานอยู่",
+    "eng": "I'm thinking about work"
+  },
+  {
+    "thai": "คิดยังไงกับอันนี้",
+    "eng": "what do you think of this?"
+  },
+  {
+    "thai": "รู้เรื่องนี้แล้ว",
+    "eng": "I already know about this"
+  },
+  {
+    "thai": "ไม่รู้ว่าเขาอยู่ที่ไหน",
+    "eng": "I don't know where he is"
+  },
+  {
+    "thai": "ใครรู้คำตอบบ้าง",
+    "eng": "who knows the answer?"
+  },
+  {
+    "thai": "รู้จักคนนี้ไหม",
+    "eng": "do you know this person?"
+  },
+  {
+    "thai": "ไม่รู้จักร้านนี้มาก่อน",
+    "eng": "I didn't know this shop before"
+  },
+  {
+    "thai": "ยินดีต้อนรับสู่ประเทศไทย",
+    "eng": "welcome to Thailand"
+  },
+  {
+    "thai": "รู้สึกเหนื่อยมาก",
+    "eng": "I feel very tired"
+  },
+  {
+    "thai": "รู้สึกไม่ค่อยสบาย",
+    "eng": "I don't feel very well"
+  },
+  {
+    "thai": "รู้สึกตื่นเต้น",
+    "eng": "I feel excited"
+  },
+  {
+    "thai": "เข้าใจภาษาไทยไหม",
+    "eng": "do you understand Thai?"
+  },
+  {
+    "thai": "ไม่เข้าใจที่คุณพูด",
+    "eng": "I don't understand what you said"
+  },
+  {
+    "thai": "อยากกลับบ้านแล้ว",
+    "eng": "I want to go home now"
+  },
+  {
+    "thai": "ไม่อยากออกไปข้างนอก",
+    "eng": "I don't want to go out"
+  },
+  {
+    "thai": "อยากเรียนรู้เพิ่มเติม",
+    "eng": "I want to learn more"
   }
 ]
